@@ -1,0 +1,31 @@
+---
+layout: textoporpagina
+title: Primer viaje alrededor del mundo
+book: Libro I
+section: Preparativos en España y curiosidades de la travesía por el Atlántico
+subsection: Árbol de agua de Canarias
+author: Antonio Pigafetta
+editor: Nidia Hernández
+type: texto
+img: pg_0004
+---
+
+<div class="row">
+  <h5 class="uppercase">{{page.book}}</h5>
+  <h3>{{page.section}}</h3>
+  <h2>{{page.subsection}}</h2>
+  <div class="col-left">
+  <p>El <span class="bold">martes 20 de septiembre del mismo año</span> partimos de ese lugar llamado <a id="0" class="map-balloon" href="javascript:;">San Lúcar</a>, enfilando al Sudoeste, y, antes de terminar el mes, el 26, arribamos a una isla de la <a id="1" class="map-balloon" href="javascript:;">Gran Canaria</a> que se llama <a id="2" class="map-balloon" href="javascript:;">Tenerife</a>, a 28 grados de latitud, para repostar carne, agua y leña.</p>
+  <p>Anclamos allí tres días y medio, como provisión de la escuadra en dichas cosas; después, nos acercamos a otro puerto de la misma isla, Monte Rosso (sic) por nombre, tardando dos días. Sabrá Vuestra Ilustrísima Señoría que en aquellas islas de la Gran Canaria, que vienen una tras otra, no se encuentra ni una mala gota de agua que brote; sino que, al mediodía, se ve abajarse una nube del cielo, y circunda un <span class="bold">enorme árbol que en aquella isla hay; destilando entonces sus hojas y ramas agua a placer</span>. Y al pie de dicho árbol se dispuso como una cavidad a modo de fuente, donde el agua se alberga; con lo cual, los hombres que allá habitan y los animales --así domésticos como selváticos--, todos los días, de esta agua, y no de otra, abundantísimamente se saturan.</p>
+  </div>
+
+  <div class="col-right" style="padding-left: 25px;">
+    <a class="no-underline" href="{{site.baseurl}}/assets/img/{{page.img}}.jpg"><img src="{{site.baseurl}}/assets/img/{{page.img}}.jpg"></a>
+  </div>
+</div>
+
+<script type="text/javascript">
+  $(function() {  $("#0").miniPreview();$("#1").miniPreview();$("#2").miniPreview();});
+</script>
+<script src="{{ site.baseurl }}/assets/js/pigafettaPlaces.js" type="text/javascript"></script>
+<script src="{{ site.baseurl }}/assets/js/map-balloon.js"></script>

@@ -1,0 +1,30 @@
+---
+layout: textoporpagina
+title: Primer viaje alrededor del mundo
+book: Libro I
+section: Enfrentamientos, conjuras y contratiempos en las costas argentinas
+subsection: Fauna costera
+author: Antonio Pigafetta
+editor: Nidia Hernández
+type: texto
+img: pg_0011
+---
+
+<div class="row">
+  <h5 class="uppercase">{{page.book}}</h5>
+  <h3>{{page.section}}</h3>
+  <h2>{{page.subsection}}</h2>
+  <div class="col-left">
+    <p>Continuando nuestro rumbo, hacia el Polo Antártico, costeando ahora, vinimos a dar con <a id="0" class="map-balloon" href="javascript:;"><button class="balloon" data-balloon-pos="up" data-balloon-length="large" data-balloon="Posiblemente, isla Chata e isla Pingüino (antiguamente isla de los Reyes).">dos islas</button></a> llenas de <button class="balloon" data-balloon-pos="up" data-balloon-length="large" data-balloon="Se trata de pingüinos.">ansarones</button>, y de lobos marinos. Verdaderamente, el número de ansarones no se podría referir. En una hora abarrotamos las cinco naves. Esos ansarones son negros, y tienen exacto el plumaje del cuerpo y de las alas; no pueden volar, y viven de la pesca. Tienen tal desarrollo, que no era menester desplumarlos, sino que los desollábamos. El pico es como de cuervo. En cuanto a los lobos marinos, los hay de diversos colores, gordos, como terneros y con la cabeza igual: orejas pequeñas y ralas, largos dientes, no tienen patas, sino unos pies que les arrancan del mismo tronco, parecidos a nuestras manos --con uñas pequeñitas, y entre los dedos la misma suerte de membrana que las ocas--. Resultarían ferocísimos si pudiesen correr: nadan y viven de la pesca. Aquí nuestras naos supieron los mejores <span class="bold">augurios al aparecer en frecuentes ocasiones los tres Cuerpos Santos</span>, o sea: <button class="balloon" data-balloon-pos="up" data-balloon-length="large" data-balloon="Patrono al que se encomendaban los marineros españoles de la conquista de América y al que se asocia el fenómeno de &quot;fuego de San Telmo&quot;, descrito por Pigafetta más arriba.">San Telmo</button>, <button class="balloon" data-balloon-pos="up" data-balloon-length="large" data-balloon="Nicolás de Tolentino (Sant'Angelo in Pontano, 1245 - Tolentino, 1305), fraile italiano, primer santo de la orden de San Agustín. Su cuerpo habría sido hallado incorrupto cuarenta años después de su muerte.">San Nicolás</button> y <button class="balloon" data-balloon-pos="up" data-balloon-length="large" data-balloon="Clara de la Cruz o Santa Clara de Montefalco (Montefalco, 1268 - ibidem, 1308), abadesa agustina cuyos restos incorruptos son venerados. Se habrían encontrado en su corazón elementos de la Pasión de Cristo formados por los tejidos cardícacos.">Santa Clara</button>. Luces que se extinguían súbitamente.</p>
+  </div>
+
+  <div class="col-right" style="padding-left: 25px;">
+    <a class="no-underline" href="{{site.baseurl}}/assets/img/{{page.img}}.jpg"><img src="{{site.baseurl}}/assets/img/{{page.img}}.jpg"></a>
+  </div>
+</div>
+
+<script type="text/javascript">
+  $(function() {  $("#0").miniPreview();});
+</script>
+<script src="{{ site.baseurl }}/assets/js/pigafettaPlaces.js" type="text/javascript"></script>
+<script src="{{ site.baseurl }}/assets/js/map-balloon.js"></script>

@@ -1,0 +1,30 @@
+---
+layout: textoporpagina
+title: Primer viaje alrededor del mundo
+book: Libro I
+section: Particularidades de Brasil y sus habitantes
+subsection: Bohíos y canoas
+author: Antonio Pigafetta
+editor: Nidia Hernández
+type: texto
+img: pg_0007
+---
+
+<div class="row">
+  <h5 class="uppercase">{{page.book}}</h5>
+  <h3>{{page.section}}</h3>
+  <h2>{{page.subsection}}</h2>
+  <div class="col-left">
+    <p>Esta <a id="0" class="map-balloon" href="javascript:;"><button class="balloon" data-balloon-pos="up" data-balloon-length="large" data-balloon="&quot;Verzino&quot; es la palabra italiana para el pernambuco o palo brasil, especie de árbol originaria de Brasil de color rojizo.">tierra de Verzin</button></a> es abundantísima, mayor que <a id="1" class="map-balloon" href="javascript:;">España</a>, <a id="2" class="map-balloon" href="javascript:;">Francia</a> e <a id="3" class="map-balloon" href="javascript:;">Italia</a> juntas; pertenece al <button class="balloon" data-balloon-pos="up" data-balloon-length="large" data-balloon="Manuel I de Portugal, el Afortunado (Alcochete, 1469 - Lisboa, 1521). Se le apodó o Venturoso y o Bem-Aventurado porque durante su reinado Portugal se vio beneficiado por el descubrimiento de la ruta hacia las Indias por el cabo de Buena Esperanza y por la conquista de Brasil.">Rey de Portugal</button>. Sus <button class="balloon" data-balloon-pos="up" data-balloon-length="large" data-balloon="Por la zona referida, se trataría de los tamoios o tamoyos, indígenas de las costas de los actuales estados brasileños de San Pablo y Río de Janeiro.">indígenas</button> no son cristianos, y no adoran cosa alguna. Proceden según los usos naturales, y <button class="balloon" data-balloon-pos="up" data-balloon-length="large" data-balloon="Walls y Merino indica en este punto que los nativos de Brasil daba a entender su longevidad presentando su ascendencia hasta los tatarabuelos.">viven ciento veinticinco años y ciento cuarenta</button>. Andan desnudos, así hombres como mujeres; habitan en ciertas casas amplias llamadas &quot;bohíos&quot;, y duermen en redes de algodón que denominan &quot;hamacas&quot;, anudadas --en el interior de aquellas viviendas-- de un extremo a otro, en troncos gruesos; entre las cuales encienden lumbres. En alguno de estos bohíos se junta hasta un centenar de hombres, con sus mujeres e hijos, armando gran rumor. Poseen barcas de una sola pieza --de un troncoafilado con utensilios de piedra--, llamadas &quot;canoas&quot;. Utilizan estos pueblos la piedra como nosotros el hierro, que no conocen . En cada una de esas embarcaciones se meten treinta o cuarenta hombres, bogan con palas como de panadería, y, tan negros y afeitados, parecen los remeros de la Laguna Estigia.</p>
+  </div>
+
+  <div class="col-right" style="padding-left: 25px;">
+    <a class="no-underline" href="{{site.baseurl}}/assets/img/{{page.img}}.jpg"><img src="{{site.baseurl}}/assets/img/{{page.img}}.jpg"></a>
+  </div>
+</div>
+
+<script type="text/javascript">
+  $(function() {  $("#0").miniPreview();$("#1").miniPreview();$("#2").miniPreview();$("#3").miniPreview();$("#4").miniPreview();$("#5").miniPreview();$("#6").miniPreview();$("#7").miniPreview();$("#8").miniPreview();$("#9").miniPreview();$("#10").miniPreview();});
+</script>
+<script src="{{ site.baseurl }}/assets/js/pigafettaPlaces.js" type="text/javascript"></script>
+<script src="{{ site.baseurl }}/assets/js/map-balloon.js"></script>

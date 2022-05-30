@@ -1,0 +1,20 @@
+---
+layout: page
+title: Nombres destacados
+permalink: /nombres-destacados/
+type: extras
+description: Más información sobre los personajes destacados del texto
+icon: people
+---
+
+Haga click en los personajes para ver más información biográfica, histórica y/o literaria.
+
+  <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
+    {% for personaje in site.nombres_destacados %}
+      {% include card.html %}
+    {% endfor %}
+  </div>
+
+  {% for personaje in site.nombres_destacados %}
+    {% include modal.html %}
+  {% endfor %}

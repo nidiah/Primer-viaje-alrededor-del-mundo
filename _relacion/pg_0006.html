@@ -1,0 +1,30 @@
+---
+layout: textoporpagina
+title: Primer viaje alrededor del mundo
+book: Libro I
+section: Particularidades de Brasil y sus habitantes
+subsection: Riquezas del Brasil
+author: Antonio Pigafetta
+editor: Nidia Hernández
+type: texto
+img: pg_0006
+---
+
+<div class="row">
+  <h5 class="uppercase">{{page.book}}</h5>
+  <h3>{{page.section}}</h3>
+  <h2>{{page.subsection}}</h2>
+  <div class="col-left">
+    <p>Pasado que hubimos la línea equinoccial, hacia el mediodía, se perdió la referencia de la estrella polar; y, así, navegose con rumbo Sur-Suroeste hasta una tierra que se llama la <a id="0" class="map-balloon" href="javascript:;"><button class="balloon" data-balloon-pos="up" data-balloon-length="large" data-balloon="Refiere a Brasil. &quot;Verzino&quot; es la palabra italiana para el pernambuco o palo brasil, especie de árbol originaria de Brasil de color rojizo.">Tierra del Verzin</button></a>, en los 23 grados y medio del <button class="balloon" data-balloon-pos="up" data-balloon-length="large" data-balloon="Pigafetta usa Ártico y Antártico para refirse a Norte y Sur.">Polo Antártico</button>, que es tierra del <a id="1" class="map-balloon" href="javascript:;"><button class="balloon" data-balloon-pos="up" data-balloon-length="large" data-balloon="Santo Agostinho, Cabo de Consolación, Pernambuco, Brasil.">Cabo de San Agustín</button></a>, que está en los 8 grados del mismo Polo; donde hicimos gran acopio de gallinas, <span class="bold">patatas</span>, <button class="balloon" data-balloon-pos="up" data-balloon-length="large" data-balloon="Se trata del ananá.">piñas muy dulces</button> --fruto verdaderamente el más gentil que haya--, carne de <button class="balloon" data-balloon-pos="up" data-balloon-length="large" data-balloon="Se trata del anta o tapir">ánade</button> como vaca, <span class="bold">caña de azúcar</span> y otras infinitas cosas, que dejo para no resultar prolijo. Por un anzuelo de pesca o un cuchillo daban cinco o seis gallinas; por un peine, un par de ánsares; por un espejo o unas tijeras, tanto pescado, que para diez hombres bastara; por un cencerro o una correa, un saco de patatas. Cuyas <span class="bold">patatas</span> saben, al comerlas, a castañas, y son largas como nabos. Y por un &quot;rey de oros&quot;, que es una carta de la baraja, diéronme seis gallinas, con el temor, aún, de haberme engañado. Anclamos en <a id="2" class="map-balloon" href="javascript:;"><button class="balloon" data-balloon-pos="up" data-balloon-length="large" data-balloon="Walls y Merino señala que los españoles llamaron a este puerto Santa Lucía y que los portugueses lo nombraron Rio de Janeiro.">ese puerto</button></a> el <button class="balloon" data-balloon-pos="up" data-balloon-length="large" data-balloon="En la actualidad, se celebra el 13 de diciembre pero hasta 1582 (cambio al calendario gregoriano) el día de Santa Lucía coincidía con el 21 de diciembre, solsticio de verano en el hemisferio sur.">día de Santa Lucía</button>, y en tal fecha sufrimos al sol en su cenit, y más calor --tanto en aquella como en las siguientes, en el momento mollar del astro-- que en cualquier otro sitio bajo la línea equinoccial.</p>
+  </div>
+
+  <div class="col-right" style="padding-left: 25px;">
+    <a class="no-underline" href="{{site.baseurl}}/assets/img/{{page.img}}.jpg"><img src="{{site.baseurl}}/assets/img/{{page.img}}.jpg"></a>
+  </div>
+</div>
+
+<script type="text/javascript">
+  $(function() {  $("#0").miniPreview();$("#1").miniPreview();$("#2").miniPreview();});
+</script>
+<script src="{{ site.baseurl }}/assets/js/pigafettaPlaces.js" type="text/javascript"></script>
+<script src="{{ site.baseurl }}/assets/js/map-balloon.js"></script>

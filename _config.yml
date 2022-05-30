@@ -1,0 +1,26 @@
+title: Primer viaje alrededor del mundo
+email: nidiahy@gmail.com
+description: Edición digital de Primer viaje alrededor del mundo de Antonio Pigafetta
+baseurl: "/Primer-viaje-alrededor-del-mundo" 
+url: "http://hdlab.space"
+github_repo: Primer-viaje-alrededor-del-mundo
+twitter_username: yoko_nh
+github_username:  nidiah
+
+social_link: twitter
+social_username: nidiah
+
+theme_color: light
+
+# Build settings
+markdown: kramdown
+
+collections:
+    #pages_en:
+    #  output: true
+    pages_es:
+      output: true
+    recursos:
+      output: true
+    relacion:
+      output: true
