@@ -41,7 +41,7 @@ var pigafettaPlaces = {
 	"Cabo Deseado": [-52.73049, -74.72801],
 	"Estrecho Patagónico": [-53.9282, -71.10214],
 	"islas de los Ladrones": [15.8588611272, 145.6148514218],
-	"en otra": [10.44, 125.43]
+	"en otra": [10.44, 125.43],
 	"Zamal": [11.93353, 125.03403],
 	"Zuluán": [10.9295, 125.831],
 	"Humunu": [10.73861, 125.71806],
