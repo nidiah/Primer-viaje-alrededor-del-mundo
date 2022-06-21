@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bibliografía
-permalink: /biblio
+permalink: /biblio/
 type: extras
 icon: book
 ---
@@ -51,20 +51,6 @@ A continuación, ofrecemos un breve recuento de manuscritos, primeras ediciones 
 <p style="font-size:17px; padding-left:40px; padding-bottom:20px;">Traducción basada en la versión francesa de Moretti. Es una de las traducciones españolas más difundidas. Disponible a través de Internet Archive, <a href="https://archive.org/details/primerviajeentor00piga/page/n9/mode/2up" target="_blank">https://archive.org/details/primerviajeentor00piga/page/n9/mode/2up</a>.</p>
 
 
-
-## Documentos históricos
-
-* Porte de naos y su costo. 
-
-* Listado de tripulates
-
-* Antecedentes y detalle de la rebelión ocurrida en el puerto de San Julián.
-
-* Carta del contador Juan López Recalde al Obispo de Burgos, dándole cuenta de la llegada al puerto de las Muelas de la nao San Antonio.
-
-* Navegación de la nao Trinidad desde que salió de Tidore hasta que fue apresada por los portugueses. 
-
-
 ## Textos críticos
 
 * BERNARD, C. & CASTRO, X. (2007). Prefacio a _Le voyage de Magellan (1519-1522). La relation d’Antonio Pigafetta et autres témoignages_. CASTRO, Xavier de; HAMON, Jocelyne y THOMAZ, Luis Filipe (eds.). París: Chandeigne.
@@ -76,4 +62,10 @@ A continuación, ofrecemos un breve recuento de manuscritos, primeras ediciones 
 
 ## Mapas
 
-* BEHAIM, M. (1492). <a href="https://gallica.bnf.fr/ark:/12148/btv1b55008737g/f1.item" title="via BnF" target="_blank">Globo terrestre.</a> Reproducción facsimilar consultable en 3D.
+* BEHAIM, M. (ca. 1492). Erdapfel (Manzana terrestre).
+
+<p style="font-size:17px; padding-left:40px; padding-bottom:20px;">El globo terrestre de Martin Behaim es mencionado por Pigafetta como la inspiración de Magallanes para la búsqueda del paso interocéanico. Sin embargo, el estrecho no está representado en el globo de Benhaim. El original se encuentra en el Museo Germánico de Nuremberg y es el globo terráqueo conservado más antiguo. Una reproducción facsimilar realizada en el siglo XIX consultable en 3D se encuentra disponible a través de Gallica - BnF, <a href="https://gallica.bnf.fr/ark:/12148/btv1b55008737g/" title="via Gallica - BnF" target="_blank">https://gallica.bnf.fr/ark:/12148/btv1b55008737g/</a>.</p>
+
+* REINEL, J. & REINEL, P. (ca. 1519). Kunstmann IV. 
+
+<p style="font-size:17px; padding-left:40px; padding-bottom:20px;">Carta náutica mundial que compendia los descubrimientos náuticos realizados hasta la fecha y que puede haber servido de modelo para las cartas usadas en la expedición de Magallanes. El original, atribuido a Jorge y Pedro Reinel, fue destruido. Es posible consultar una reproducción facsimilar realizada por Otto Progel ca. 1836 a través de Gallica - BnF, <a href="https://gallica.bnf.fr/ark:/12148/btv1b59055673" title="via Gallica - BnF" target="_blank">https://gallica.bnf.fr/ark:/12148/btv1b55008737g/</a>.</p>
