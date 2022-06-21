@@ -731,7 +731,7 @@ button.close {
 
 
 .alert {
-  padding: 15px;
+  padding: 25px;
   margin-bottom: 20px;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -761,39 +761,7 @@ button.close {
   right: -21px;
   color: inherit;
 }
-.alert-dark {
-  color: #383d41;
-  background-color: #e2e3e5;
-  border-color: #d6d8db;
-}
-.alert-dark hr {
-  border-top-color: #c6c8ca;
-}
-.alert-dark .alert-link {
-  color: #202326;
-}
 
-.alert-success {
-  color: #3c763d;
-  background-color: #dff0d8;
-  border-color: #d6e9c6;
-}
-.alert-success hr {
-  border-top-color: #c9e2b3;
-}
-.alert-success .alert-link {
-  color: #2b542c;
-}
-.alert-info {
-  color: #31708f;
-  background-color: #d9edf7;
-  border-color: #bce8f1;
-}
-.alert-info hr {
-  border-top-color: #a6e1ec;
-}
-.alert-info .alert-link {
-  color: #245269;
 }
 .alert-warning {
   color: #8a6d3b;

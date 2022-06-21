@@ -1,4 +1,5 @@
 var pigafettaPlaces = {
+	"lugares marcados en rojo": [-35, -57],
 	"España": [40.2282293565, -3.6390669646],
 	"Aprutino": [42.43104, 13.98057],
 	"Téramo": [42.6581146185, 13.7031092058],

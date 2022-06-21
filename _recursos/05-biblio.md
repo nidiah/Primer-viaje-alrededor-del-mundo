@@ -6,34 +6,74 @@ type: extras
 icon: book
 ---
 
-### Ediciones de Pero Hernández
+A continuación, ofrecemos un breve recuento de manuscritos, primeras ediciones y otros recursos documentales relacionados con la relación de Antonio Pigafetta donde privilegiamos la posibilidad de consulta en línea.
 
-* Apéndice B del "Viaje al Río de la Plata" de Ulrich Schmídel. Edición de Bartolomé Mitre. Buenos Aires, Cabaut y Cía., 1903.
 
-* Hernández, Pero. "Relación de las cosas sucedidas en el Río de la Plata". En: Nuñez Cabeza de Vaca, Alvar y Hernández, Pero. Relación de los naufragios y comentarios de Alvar Núñez Cabeza de Vaca.  Ilustrados con varios documentos inéditos. Tomo II. Madrid, Librería General de Victoriano Suárez, 1906, pp. 307-358.
- 
+## Manuscritos
 
-### Artículos
+* **(it)** _Viaggio intorno al mondo_. [Italia: 1523-1525]. Milán, [Veneranda Biblioteca Ambosiana](https://ambrosiana.comperio.it).
 
-* Adorno, Rolena; Pautz, Patrick Charles, Álvar Núñez Cabeza de Vaca. His account, his life, and the expedition of Pánfilo de Narváez, Lincoln y Londres University of Nebraska Press. Tomo 1, pp. 378-407; Tomo 3, pp. 97-102; 111-118.
+<p style="font-size:17px; padding-left:40px; padding-bottom:20px;">Manuscrito en italiano (con mezcla de veneciano y español) en el que se basó Carlo Amoretti para la edición que hoy es tenida por la más fiel al relato original de Pigafetta. Digitalización disponible para lectura a través de <a href="http://213.21.172.25/0b02da8280085ee9" target="_blank">http://213.21.172.25/0b02da8280085ee9.</a></p>
 
-* Beuchesne, Kim, "Poder y 'amor' en los trópicos: la segunda expedición de Álvar Núñez Cabeza de Vaca a América según los Comentarios de Pero Hernández", en Visión periférica. Marginalidad y colonialidad en las crónicas de América Latina (siglos XVI-XVIII y XX-XXI), Madrid y Frankfurt, Iberoamericana-Vervuert, 2013.
+* **(fr)** _Journal of Magellan's Voyage_. [Francia: ca. 1525]. New Haven, Yale University Library. 
 
-* El Jaber, Loreley, "Álvar Núñez Cabeza de Vaca. Gustos y olvidos. Legalidad, viaje y escritura", en Cuadernos del CILHA, vol. 13, núm. 17, 2012, p. 56-73.
+<p style="font-size:17px; padding-left:40px; padding-bottom:20px;">Manuscrito en francés, derivado de una traducción libre realizada por Antoine Fabre a pedido de Louise de Savoie, reina regente de Francia a quien Pigafetta obsequió una copia de su relación. Este ejemplar de Yale es el más bellamente ornamentado de los manuscritos conservados. Disponible para lectura y descarga a través de Library of Congress, <a href="https://www.loc.gov/item/2021667606/" target="_blank">https://www.loc.gov/item/2021667606/</a>.</p>
 
-* Gandini, María Juliana, "Experiencias desde los márgenes. Armas, letras y alteridad en los Comentarios de Álvar Núñez Cabeza de Vaca (1555)", en Anuario del Centro de Estudios Históricos «Prof. Carlos S. A. Segreti», año 1. https://revistas.unc.edu.ar/index.php/anuarioceh/article/view/22702/223212, núm. 12, 2012, pp. 81-96.
+* **(fr)** _Navigation et descouvrement de la Indie superieure, faicte vers 1519 par moy ANTHOYNE PIGAPHETE, Vincentin, chevallier de Rhodes_. [Francia: s. XVI]. París, Bibliothèque nationale de France.
 
-* Ojeda, Miguel."[El burgalés Juan de Ayolas en la exploración y fundaciones del Nuevo Mundo](https://riubu.ubu.es/bitstream/handle/10259.4/1054/0211-8998_n127_p187-199.pdf?sequence=1)", en Boletín de la Institución Fernán González, Burgos, Diputación Provincial,1954.   
+<p style="font-size:17px; padding-left:40px; padding-bottom:20px;">Este manuscrito, también derivado de la traducción libre de Fabre, está seguido de otro texto, "Description de la sphère", un tratado de navegación también atribuido a Pigafetta. Digitalización disponible para lectura y descarga a través de Gallica - BnF, <a href="https://gallica.bnf.fr/ark:/12148/btv1b550130414" target="_blank">https://gallica.bnf.fr/ark:/12148/btv1b550130414</a>.</p>
 
-### Mapas
+* **(fr)** _Navigation et discovement (sic) de la Indie supérieure, faicte par moy Anthoine Pigaphete, Vincentin, chevalier de Rhodes (1519-1522)_. [Francia: s. XVI]. París, Bibliothèque nationale de France.
 
-* <a href="https://www.wdl.org/en/item/235/view/1/4/" title="via World Digital Library">A Map of the provinces Paraguay and Tucuman with the River Plate</a>, S. Buckley, 1698 / <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</a>
+<p style="font-size:17px; padding-left:40px; padding-bottom:20px;">Este ejemplar también incluye "Description de la sphère" y es igualmente derivado de la versión Fabre. De los cuatro manuscritos preservados, es el que posee los mapas más delicadamente ilustrados. Disponible para lectura online y descarga a través de Gallica - BnF, <a href="https://gallica.bnf.fr/ark:/12148/btv1b10023015z/" target="_blank">https://gallica.bnf.fr/ark:/12148/btv1b10023015z/</a>.</p>
 
-* <a href="https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~28209~1120441:Gulf-Stream-?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&qvq=q:canal%20de%20bahama;sort:Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No;lc:RUMSEY~8~1&mi=0&trs=1" title="via David Rumsay">Carte du courant qui sort par le Canal de Bahama, appele Gulf-Stream.</a>, Veuve Agasse, 1827 / <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</a>
 
-* <a href="https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~282896~90054401:Paraqvaria-Vulgo-Paragvay?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No#" title="via David Rumsay">Paraqvaria Vulgo Paragvay</a>, Joan Blaeu, 1665 / <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</a>
+## Ediciones de _Primer viaje alrededor del mundo_
 
-* <a href="https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~285997~90058515:Terra-Firma-et-Novum-Regnum-Granate?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&qvq=w4s:/when%2F1630;q:panama;sort:Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No;lc:RUMSEY~8~1&mi=0&trs=1" title="via David Rumsay">Terra Firma et Novum Regnum Granatense et Popayan.</a>, Willem Janszoon Blaeu, 1630 / <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</a>
+* **(it)** _Primo Viaggio Intorno al Globo Terracqueo_. (1800). Trad. Carlo Amoretti. Milán: Stamperia di Giuseppe Galeazzi. 
 
-* <a href="https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~286001~90058519:Paraguay|-O-Prov--de-Rio-de-la-Plat?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No" title="via David Rumsay">Paraguay, O Prov. de Rio de la Plata.</a>, Willem Janszoon Blaeu, 1630 / <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</a>
+<p style="font-size:17px; padding-left:40px; padding-bottom:20px;">Esta edición incluye otro texto de Pigafetta, "Tratatto di Navigazione" y un detallado prólogo de Amoretti. Disponible a través de Google Books, <a href="https://books.google.es/books?id=xknW1neprkcC&lpg=PA157&ots=rLejsq8Elg&dq=pigafetta%20moreti%20primo%20viaggio&hl=es&pg=PP1#v=onepage&q=pigafetta%20moreti%20primo%20viaggio&f=false" target="_blank">ver</a>.</p>
 
+* **(fr)** _Premier voyage autour du monde, par le Chevr. Pigafetta, sur l'escadre de Magellan, pendant les années 1519, 20, 21 et 22_. (1801). Trad. Carlo Amoretti. París: H. J. Jansen, imprimeur-libraire. 
+
+<p style="font-size:17px; padding-left:40px; padding-bottom:20px;">Traducción al francés realizada por el mismo Amoretti, ampliada con una biografía de Martín Behaim y una descripción de su globo terráqueo (citado por Pigafetta como inspiración del trayecto de Magallanes). Disponible a través de Gallica - BnF, <a href="https://gallica.bnf.fr/ark:/12148/bpt6k828291" target="_blank">https://gallica.bnf.fr/ark:/12148/bpt6k828291</a>.</p>
+
+* **(es)** Navegación y descubrimiento de la India Superior, hecha por mí Antonio Pigafetta, jentil-hombre vicentino, caballero de Rodas. (1888). Trad. José Toribio Medina. En _Colección de documentos inéditos para la historia de Chile: desde el viaje de Magallanes hasta la batalla de Maipo: 1518-1818_. Santiago: Imprenta Ercilla.
+
+<p style="font-size:17px; padding-left:40px; padding-bottom:20px;">Primera traducción al español del texto de Pigafetta, realizada a partir de la versión francesa de Amoretti. Disponible a través de Biblioteca Nacional de Chile, <a href="http://www.bibliotecanacionaldigital.gob.cl/visor/BND:79546" target="_blank">http://www.bibliotecanacionaldigital.gob.cl/visor/BND:79546</a>.</p>
+
+* **(es)** _Primer viaje alrededor del mundo_. (1899). Trad. Manuel Walls y Merino. Madrid: Imprenta de Fortanet. 
+
+<p style="font-size:17px; padding-left:40px; padding-bottom:20px;">Esta traducción al español, poco conocida, es la primera en tomar la versión italiana de Amoretti como base. Ofrece abundantes anexos documentales. Digitalización en alta resolución disponible a través de Llilas Benson Latin American Studies and Collections, <a href="https://collections.lib.utexas.edu/catalog/utblac:f2fb5909-0aba-4296-8a7d-6c850e7f33f3" target="_blank">https://collections.lib.utexas.edu/catalog/utblac:f2fb5909-0aba-4296-8a7d-6c850e7f33f3</a>.</p>
+
+* **(es)** _Primer viaje en torno del globo_. (1922). Trad. Federico Ruiz Morcuende. Madrid: Calpe.
+
+<p style="font-size:17px; padding-left:40px; padding-bottom:20px;">Traducción basada en la versión francesa de Moretti. Es una de las traducciones españolas más difundidas. Disponible a través de Internet Archive, <a href="https://archive.org/details/primerviajeentor00piga/page/n9/mode/2up" target="_blank">https://archive.org/details/primerviajeentor00piga/page/n9/mode/2up</a>.</p>
+
+
+
+## Documentos históricos
+
+* Porte de naos y su costo. 
+
+* Listado de tripulates
+
+* Antecedentes y detalle de la rebelión ocurrida en el puerto de San Julián.
+
+* Carta del contador Juan López Recalde al Obispo de Burgos, dándole cuenta de la llegada al puerto de las Muelas de la nao San Antonio.
+
+* Navegación de la nao Trinidad desde que salió de Tidore hasta que fue apresada por los portugueses. 
+
+
+## Textos críticos
+
+* BERNARD, C. & CASTRO, X. (2007). Prefacio a _Le voyage de Magellan (1519-1522). La relation d’Antonio Pigafetta et autres témoignages_. CASTRO, Xavier de; HAMON, Jocelyne y THOMAZ, Luis Filipe (eds.). París: Chandeigne.
+
+* BORAO MATEO, J. E. (2019). Las crónicas de los viajes de Zheng He y de Magallanes-Elcano. En Actas Congreso Internacional de Historia "Primus circumdedisti me". Madrid: Ministerio de Defensa. pp. 51-66. Disponible [online](http://vcentenario.es/wp-content/uploads/2019/07/actas_del_congreso_internacional_v_centenario_-2-3.pdf).
+
+* VARELA, C. (2019). Los cronistas del viaje de Magallanes y Elcano. En Actas Congreso Internacional de Historia "Primus circumdedisti me". Madrid: Ministerio de Defensa. pp. 259-270. Disponible [online](http://vcentenario.es/wp-content/uploads/2019/07/actas_del_congreso_internacional_v_centenario_-2-3.pdf).
+
+
+## Mapas
+
+* BEHAIM, M. (1492). <a href="https://gallica.bnf.fr/ark:/12148/btv1b55008737g/f1.item" title="via BnF" target="_blank">Globo terrestre.</a> Reproducción facsimilar consultable en 3D.
