@@ -105,6 +105,11 @@ code {
     word-break: normal;
     word-break: keep-all;
 
+    .table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
     th {
       font-weight: bold;
       text-align: left;

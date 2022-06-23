@@ -13,10 +13,6 @@ button {
  font-family: inherit;
  font-size: inherit;
  line-height: inherit;
-//  font-weight:400;
-// color:#000000;
-// background-color:#CCCCCC;
-//  box-sizing: border-box;
 }
 
 .balloon {
@@ -111,4 +107,14 @@ a:hover {
 /* El tamaño está definido en bootstrap.css */
 .caret {
 	color: #841212;
+}
+
+/* Table scroll*/
+.my-custom-scrollbar {
+position: relative;
+height: 400px;
+overflow: auto;
+}
+.table-wrapper-scroll-y {
+display: block;
 }
