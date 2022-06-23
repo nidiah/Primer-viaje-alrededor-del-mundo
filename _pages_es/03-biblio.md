@@ -36,7 +36,7 @@ A continuación, ofrecemos un breve recuento de manuscritos, primeras ediciones 
 
 * **(fr)** _Premier voyage autour du monde, par le Chevr. Pigafetta, sur l'escadre de Magellan, pendant les années 1519, 20, 21 et 22_. (1801). Trad. Carlo Amoretti. París: H. J. Jansen, imprimeur-libraire. 
 
-<p style="font-size:17px; padding-left:40px; padding-bottom:20px;">Traducción al francés realizada por el mismo Amoretti, ampliada con una biografía de Martín Behaim y una descripción de su globo terráqueo (citado por Pigafetta como inspiración del trayecto de Magallanes). Disponible a través de Gallica - BnF, <a href="https://gallica.bnf.fr/ark:/12148/bpt6k828291" target="_blank">https://gallica.bnf.fr/ark:/12148/bpt6k828291</a>.</p>
+<p style="font-size:17px; padding-left:40px; padding-bottom:20px;">Traducción al francés realizada por el mismo Amoretti, ampliada con una biografía de Martín Behaim y una descripción de su globo terráqueo (citado por Pigafetta como inspiración del trayecto de Magallanes; ver sección <a href="#mapas">Mapas</a>). Disponible a través de Gallica - BnF, <a href="https://gallica.bnf.fr/ark:/12148/bpt6k828291" target="_blank">https://gallica.bnf.fr/ark:/12148/bpt6k828291</a>.</p>
 
 * **(es)** Navegación y descubrimiento de la India Superior, hecha por mí Antonio Pigafetta, jentil-hombre vicentino, caballero de Rodas. (1888). Trad. José Toribio Medina. En _Colección de documentos inéditos para la historia de Chile: desde el viaje de Magallanes hasta la batalla de Maipo: 1518-1818_. Santiago: Imprenta Ercilla.
 
@@ -55,17 +55,17 @@ A continuación, ofrecemos un breve recuento de manuscritos, primeras ediciones 
 
 * BERNARD, C. & CASTRO, X. (2007). Prefacio a _Le voyage de Magellan (1519-1522). La relation d’Antonio Pigafetta et autres témoignages_. CASTRO, Xavier de; HAMON, Jocelyne y THOMAZ, Luis Filipe (eds.). París: Chandeigne.
 
-* BORAO MATEO, J. E. (2019). Las crónicas de los viajes de Zheng He y de Magallanes-Elcano. En Actas Congreso Internacional de Historia "Primus circumdedisti me". Madrid: Ministerio de Defensa. pp. 51-66. Disponible [online](http://vcentenario.es/wp-content/uploads/2019/07/actas_del_congreso_internacional_v_centenario_-2-3.pdf).
+* BORAO MATEO, J. E. (2019). Las crónicas de los viajes de Zheng He y de Magallanes-Elcano. En Actas Congreso Internacional de Historia "Primus circumdedisti me". Madrid: Ministerio de Defensa. pp. 51-66. Disponible en [http://vcentenario.es/wp-content/uploads/2019/07/actas_del_congreso_internacional_v_centenario_-2-3.pdf](http://vcentenario.es/wp-content/uploads/2019/07/actas_del_congreso_internacional_v_centenario_-2-3.pdf).
 
-* VARELA, C. (2019). Los cronistas del viaje de Magallanes y Elcano. En Actas Congreso Internacional de Historia "Primus circumdedisti me". Madrid: Ministerio de Defensa. pp. 259-270. Disponible [online](http://vcentenario.es/wp-content/uploads/2019/07/actas_del_congreso_internacional_v_centenario_-2-3.pdf).
+* VARELA, C. (2019). Los cronistas del viaje de Magallanes y Elcano. En Actas Congreso Internacional de Historia "Primus circumdedisti me". Madrid: Ministerio de Defensa. pp. 259-270. Disponible en [http://vcentenario.es/wp-content/uploads/2019/07/actas_del_congreso_internacional_v_centenario_-2-3.pdf](http://vcentenario.es/wp-content/uploads/2019/07/actas_del_congreso_internacional_v_centenario_-2-3.pdf).
 
 
 ## Mapas
 
-* BEHAIM, M. (ca. 1492). Erdapfel (Manzana terrestre).
+* BEHAIM, M. (ca. 1492). _Erdapfel_ [Manzana terrestre].
 
 <p style="font-size:17px; padding-left:40px; padding-bottom:20px;">El globo terrestre de Martin Behaim es mencionado por Pigafetta como la inspiración de Magallanes para la búsqueda del paso interocéanico. Sin embargo, el estrecho no está representado en el globo de Benhaim. El original se encuentra en el Museo Germánico de Nuremberg y es el globo terráqueo conservado más antiguo. Una reproducción facsimilar realizada en el siglo XIX consultable en 3D se encuentra disponible a través de Gallica - BnF, <a href="https://gallica.bnf.fr/ark:/12148/btv1b55008737g/" title="via Gallica - BnF" target="_blank">https://gallica.bnf.fr/ark:/12148/btv1b55008737g/</a>.</p>
 
-* REINEL, J. & REINEL, P. (ca. 1519). Kunstmann IV. 
+* REINEL, J. & REINEL, P. (ca. 1519). _Kunstmann IV_. 
 
 <p style="font-size:17px; padding-left:40px; padding-bottom:20px;">Carta náutica mundial que compendia los descubrimientos náuticos realizados hasta la fecha y que puede haber servido de modelo para las cartas usadas en la expedición de Magallanes. El original, atribuido a Jorge y Pedro Reinel, fue destruido. Es posible consultar una reproducción facsimilar realizada por Otto Progel ca. 1836 a través de Gallica - BnF, <a href="https://gallica.bnf.fr/ark:/12148/btv1b59055673" title="via Gallica - BnF" target="_blank">https://gallica.bnf.fr/ark:/12148/btv1b55008737g/</a>.</p>
