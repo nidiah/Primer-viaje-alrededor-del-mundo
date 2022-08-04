@@ -72,7 +72,7 @@ var pigafettaPlaces = {
 	"Caghaian": [8.48222, 124.64722],
 	"Polo Ártico": [9.5, 118.5],
 	"Pulaoan": [9.5, 118.5],
-	"Lozn": [16.0, 121.0],
+	"Lozón": [16.0, 121.0],
 	"Java Mayor": [-7.49167, 110.00444],
 	"tierras del Verzin": [-10.7706609996, -53.0814983273],
 	"tierra del Verzin": [-10.7706609996, -53.0814983273],
