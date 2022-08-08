@@ -4,8 +4,6 @@ title: Primer viaje alrededor del mundo
 book: Libro III
 section: Amenaza portuguesa
 subsection: Noticias de persecución a la flota de Magallanes
-author: Antonio Pigafetta
-editor: Nidia Hernández
 type: texto
 img: pg_0067
 ---
@@ -20,7 +18,7 @@ img: pg_0067
 </div>
 
   <div class="col-right" style="padding-left: 25px;">
-    <figure><a class="no-underline" href="{{site.baseurl}}/assets/img/{{page.img}}.jpg" target="_blank"><img src="{{site.baseurl}}/assets/img/{{page.img}}.jpg"></a><figcaption>Mapa de Bandan por Pigafetta, via <a href="https://gallica.bnf.fr/ark:/12148/btv1b550130414/f176.item" target="_blank">Gallica - BNF</a></figcaption></figure>
+    <figure><a class="portfolio-link" data-toggle="modal" href="#portfolioModal"><img src="{{site.baseurl}}/assets/img/{{page.img}}.jpg"></a><figcaption>Mapa de Bandan por Pigafetta, via <a href="https://gallica.bnf.fr/ark:/12148/btv1b550130414/f176.item" target="_blank">Gallica - BNF</a></figcaption></figure>
   </div>
 </div>
 
@@ -29,3 +27,19 @@ img: pg_0067
 </script>
 <script src="{{ site.baseurl }}/assets/js/pigafettaPlaces.js" type="text/javascript"></script>
 <script src="{{ site.baseurl }}/assets/js/map-balloon.js"></script>
+
+    
+
+    <div class="modal fade" id="portfolioModal" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <img src="{{site.baseurl}}/assets/img/{{page.img}}.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+    

@@ -4,8 +4,6 @@ title: Primer viaje alrededor del mundo
 book: Libro I
 section: Exploración del paso interoceánico
 subsection: Deserción de nao San Antonio
-author: Antonio Pigafetta
-editor: Nidia Hernández
 type: texto
 img: pg_0016
 ---
@@ -19,7 +17,7 @@ img: pg_0016
   </div>
 
   <div class="col-right" style="padding-left: 25px;">
-    <figure><a class="no-underline" href="{{site.baseurl}}/assets/img/{{page.img}}.png" target="_blank"><img src="{{site.baseurl}}/assets/img/{{page.img}}.png"></a><figcaption>Tabula Magellanica, detalle (Willem Janszoon Blaeu, 1635), via <a href="https://geodata.lib.utexas.edu/catalog/princeton-n009w420m" target="_blank">University of Texas Libraries</a></figcaption></figure>
+    <figure><a class="portfolio-link" data-toggle="modal" href="#portfolioModal"><img src="{{site.baseurl}}/assets/img/{{page.img}}.png"></a><figcaption>Tabula Magellanica, detalle (Willem Janszoon Blaeu, 1635), via <a href="https://geodata.lib.utexas.edu/catalog/princeton-n009w420m" target="_blank">University of Texas Libraries</a></figcaption></figure>
   </div>
 </div>
 
@@ -28,3 +26,19 @@ img: pg_0016
 </script>
 <script src="{{ site.baseurl }}/assets/js/pigafettaPlaces.js" type="text/javascript"></script>
 <script src="{{ site.baseurl }}/assets/js/map-balloon.js"></script>
+
+    
+
+    <div class="modal fade" id="portfolioModal" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <img src="{{site.baseurl}}/assets/img/{{page.img}}.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    

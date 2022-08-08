@@ -4,8 +4,6 @@ title: Primer viaje alrededor del mundo
 book: Libro III
 section: Riquezas del archipiélago
 subsection: Avistaje de Islas de las Especias
-author: Antonio Pigafetta
-editor: Nidia Hernández
 type: texto
 img: pg_0061
 ---
@@ -23,7 +21,7 @@ img: pg_0061
   </div>
 
   <div class="col-right" style="padding-left: 25px;">
-    <figure><a class="no-underline" href="{{site.baseurl}}/assets/img/{{page.img}}.png" target="_blank"><img src="{{site.baseurl}}/assets/img/{{page.img}}.png"></a><figcaption>Tierra de las especias (Zeitungsatlas, Meyer), via <a href="https://commons.wikimedia.org/wiki/File:Meyer%E2%80%98s_Zeitungsatlas_092_%E2%80%93_Verbreitungsbezirke_der_wichtigsten_Kulturgew%C3%A4chse,_nebst_Andeutungen_%C3%BCber_den_Lauf_der_Isotheren_und_Isochimenen.jpg" target="_blank">Wikimedia Commons</a></figcaption></figure>
+    <figure><a class="portfolio-link" data-toggle="modal" href="#portfolioModal"><img src="{{site.baseurl}}/assets/img/{{page.img}}.png"></a><figcaption>Tierra de las especias (Zeitungsatlas, Meyer), via <a href="https://commons.wikimedia.org/wiki/File:Meyer%E2%80%98s_Zeitungsatlas_092_%E2%80%93_Verbreitungsbezirke_der_wichtigsten_Kulturgew%C3%A4chse,_nebst_Andeutungen_%C3%BCber_den_Lauf_der_Isotheren_und_Isochimenen.jpg" target="_blank">Wikimedia Commons</a></figcaption></figure>
   </div>
 </div>
 
@@ -32,3 +30,19 @@ img: pg_0061
 </script>
 <script src="{{ site.baseurl }}/assets/js/pigafettaPlaces.js" type="text/javascript"></script>
 <script src="{{ site.baseurl }}/assets/js/map-balloon.js"></script>
+
+    
+
+    <div class="modal fade" id="portfolioModal" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <img src="{{site.baseurl}}/assets/img/{{page.img}}.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    

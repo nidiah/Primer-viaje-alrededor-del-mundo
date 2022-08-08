@@ -4,8 +4,6 @@ title: Primer viaje alrededor del mundo
 book: Libro I
 section: Preparativos en España y curiosidades de travesía por el Atlántico
 subsection: Sistema de señales
-author: Antonio Pigafetta
-editor: Nidia Hernández
 type: texto
 img: pg_0002
 ---
@@ -24,7 +22,22 @@ img: pg_0002
 
 
   <div class="col-right" style="padding-left: 25px;">
-    <figure><a class="no-underline" href="{{site.baseurl}}/assets/img/{{page.img}}.jpg" target="_blank"><img src="{{site.baseurl}}/assets/img/{{page.img}}.jpg"></a><figcaption>Nave Victoria, copiada de la geografía de Urbain Monti (izq.) y Magallanes midiendo longitudes, reproducción de Debry (der.), via <a href="https://gallica.bnf.fr/ark:/12148/bpt6k828291/f74.item" target="_blank">Gallica - BNF</a></figcaption></figure> 
+    <figure><a class="portfolio-link" data-toggle="modal" href="#portfolioModal"><img src="{{site.baseurl}}/assets/img/{{page.img}}.jpg"></a><figcaption>Nave Victoria, copiada de la geografía de Urbain Monti (izq.) y Magallanes midiendo longitudes, reproducción de Debry (der.), via <a href="https://gallica.bnf.fr/ark:/12148/bpt6k828291/f74.item" target="_blank">Gallica - BNF</a></figcaption></figure> 
   </div>
 
 </div>
+    
+
+    <div class="modal fade" id="portfolioModal" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <img src="{{site.baseurl}}/assets/img/{{page.img}}.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+    

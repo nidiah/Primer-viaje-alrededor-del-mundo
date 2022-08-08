@@ -4,8 +4,6 @@ title: Primer viaje alrededor del mundo
 book: Libro II
 section: Primeros contactos con pueblos filipinos
 subsection: Arribo a isla de Homonhon
-author: Antonio Pigafetta
-editor: Nidia Hernández
 type: texto
 img: pg_0020
 ---
@@ -20,7 +18,7 @@ img: pg_0020
   </div>
 
   <div class="col-right" style="padding-left: 25px;">
-    <figure><a class="no-underline" href="{{site.baseurl}}/assets/img/{{page.img}}.jpg"><img src="{{site.baseurl}}/assets/img/{{page.img}}.jpg" target="_blank"></a><figcaption>Mapa de Humunu, Zamal, Zuluán y otras islas del archipiélago de San Lázaro por Pigafetta, via <a href="https://www.loc.gov/item/2021667606/" target="_blank">Library of Congress</a></figcaption></figure>
+    <figure><a class="portfolio-link" data-toggle="modal" href="#portfolioModal"><img src="{{site.baseurl}}/assets/img/{{page.img}}.jpg" target="_blank"></a><figcaption>Mapa de Humunu, Zamal, Zuluán y otras islas del archipiélago de San Lázaro por Pigafetta, via <a href="https://www.loc.gov/item/2021667606/" target="_blank">Library of Congress</a></figcaption></figure>
   </div>
 </div>
 
@@ -30,3 +28,19 @@ img: pg_0020
 <script src="{{ site.baseurl }}/assets/js/pigafettaPlaces.js" type="text/javascript"></script>
 <script src="{{ site.baseurl }}/assets/js/map-balloon.js"></script>
 
+
+    
+
+    <div class="modal fade" id="portfolioModal" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <img src="{{site.baseurl}}/assets/img/{{page.img}}.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+    

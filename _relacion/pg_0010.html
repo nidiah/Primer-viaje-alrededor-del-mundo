@@ -4,8 +4,6 @@ title: Primer viaje alrededor del mundo
 book: Libro I
 section: Enfrentamientos, conjuras y contratiempos en las costas argentinas
 subsection: Inmensidad del Río de la Plata
-author: Antonio Pigafetta
-editor: Nidia Hernández
 type: texto
 img: pg_0010
 ---
@@ -21,7 +19,7 @@ img: pg_0010
   </div>
 
   <div class="col-right" style="padding-left: 25px;">
-    <figure><a class="no-underline" href="{{site.baseurl}}/assets/img/{{page.img}}.png"><img src="{{site.baseurl}}/assets/img/{{page.img}}.png" target="_blank"></a><figcaption>Carte très curieuse de la Mer du Sud (detalle), via <a href="https://geodata.lib.utexas.edu/catalog/princeton-c247dv135" target="_blank">University of Texas Libraries</a></figcaption></figure>
+    <figure><a class="portfolio-link" data-toggle="modal" href="#portfolioModal"><img src="{{site.baseurl}}/assets/img/{{page.img}}.png" target="_blank"></a><figcaption>Carte très curieuse de la Mer du Sud (detalle), via <a href="https://geodata.lib.utexas.edu/catalog/princeton-c247dv135" target="_blank">University of Texas Libraries</a></figcaption></figure>
   </div>
 </div>
 
@@ -30,3 +28,19 @@ img: pg_0010
 </script>
 <script src="{{ site.baseurl }}/assets/js/pigafettaPlaces.js" type="text/javascript"></script>
 <script src="{{ site.baseurl }}/assets/js/map-balloon.js"></script>
+
+    
+
+    <div class="modal fade" id="portfolioModal" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <img src="{{site.baseurl}}/assets/img/{{page.img}}.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    
