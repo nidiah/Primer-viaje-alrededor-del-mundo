@@ -1,39 +1,50 @@
 ---
 layout: home
+featured-img: fortanet-55.jpeg
 ---
 
     <div>
 
       <header class="clearfix">
 
-        <div class="right absolute-lg right-0 top-0">
-          <ul class="mt-2 mr-2 mr-lg-3">
-            <li class="inline-block block-lg text-right ml-1 ml-lg-0">
-              <a class="italic bold no-underline h4 font-smoothing" href="{{ site.baseurl }}/index.html">English</a>
-            </li>
+        <div class="clearfix border-bottom-thick header-border">
+          <ul class="list-reset right py-1 header-text font-smoothing mr-2">
             {% for my_page in site.pages_es %}
               {% if my_page.title %}
-              <li class="inline-block block-lg text-right ml-1 ml-lg-0">
-                <a class="italic no-underline h4 font-smoothing" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+              <li class="inline-block">
+                <a class="align-middle no-underline h4 mr-2 mr-lg-0 ml-lg-2 font-smoothing" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
               </li>
               {% endif %}
             {% endfor %}
+            <li class="inline-block">
+              <a class="align-middle bold no-underline h4 mr-2 mr-lg-0 ml-lg-2 font-smoothing" href="{{ site.baseurl }}/index.html">English</a>
+            </li>
           </ul>
         </div>
 
-        <div class="container mx-auto px-2 mt-4 mb-2 clearfix header-text">
+        <!--div class="container mx-auto px-2 mt-4 mb-2 clearfix header-text">
           <h1 class="h0 inline-block py-2 mt-4 header-title">{{ site.title }}</h1>
             <div class="clearfix mb-4 py-1">
               <p class="h3 lh-condensed font-smoothing">Edición digital de la relación de Antonio Pigafetta</p>
               <div class="col-1 sm-width-full border-top-thick"></div>
-        </div>
-
+        </div-->
+      <!--div class="container mx-auto px-1">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Lehen_zirkumnabigazioa.gif" alt="navegacion gif"/>
+      </div-->
+      
       </header>
 
-      <div class="container mx-auto px-1">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Lehen_zirkumnabigazioa.gif" alt="navegacion gif"/>
+      <!-- <div class="hero-image" style="background-image: url('{{ site.url }}{{ site.baseurl }}/assets/img/pages/{{ page.featured-img }}');"> -->
+      <div class="hero-image" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/17/Lehen_zirkumnabigazioa.gif')">
+        <div class="hero-text container mx-auto px-2 mt-4 mb-2 clearfix">
+            <h1 class="h0 inline-block py-2 mt-4">{{ site.title }}</h1>
+            <p class="h3 lh-condensed font-smoothing">Edición digital de la relación de Antonio Pigafetta</p>
+            <div class="clearfix mb-4 py-1">
+              <div class="col-1 sm-width-full border-top-thick">
+              </div>
+            </div>
+        </div>
       </div>
-
 
       <!-- Párrafo de portada -->
       <div class="container mx-auto px-2 py-2">

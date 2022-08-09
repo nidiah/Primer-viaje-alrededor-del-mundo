@@ -3,6 +3,8 @@ layout: page
 title: Acerca de
 permalink: /acerca-de/
 type: extras
+featured-img: pages/de-bry-magallanes.jpg
+img-source: Magallanes atravesando el estrecho interoceánico por De Bry (BLR Antique Maps)
 ---
 
 ## Acerca de esta edición digital

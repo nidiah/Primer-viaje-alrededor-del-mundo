@@ -3,13 +3,15 @@ layout: page
 title: Vocabularios
 permalink: /vocabularios/
 type: extras
+featured-img: pages/fortanet-187.jpg
+img-source: Fragmento de vocabulario patagón en edición de Walls y Merino (cortesía de Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin)
 ---
 
 Vocabularios nativos registrados por Pigafetta.
 
 ## Brasil
 
-En su paso por las costas de Río de Janeiro, Pigafetta registró 12 palabras en Tupí, lengua de la familia tupí-guaraní hablada en ese entonces por los tamoios, pueblo de la parcialidad tupinambá. Se trata, en su mayoría, de palabras relacionadas con el trueque.
+En su paso por las costas de Río de Janeiro (ver [Particularidades de Brasil y sus habitantes](https://nidiah.github.io/Primer-viaje-alrededor-del-mundo/relacion/pg_0006.html)), Pigafetta registró 12 palabras en Tupí, lengua de la familia tupí-guaraní hablada en ese entonces por los tamoios, pueblo de la parcialidad tupinambá. Se trata, en su mayoría, de palabras relacionadas con el trueque.
 
 <div class="py-3 table-wrapper-scroll-y my-custom-scrollbar">
   <table class="table">

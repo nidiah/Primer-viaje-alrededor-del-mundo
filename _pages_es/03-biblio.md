@@ -4,6 +4,8 @@ title: Bibliografía
 permalink: /biblio/
 type: extras
 icon: book
+featured-img: pages/fortanet-1899-portada.jpg
+img-source: Portada de la edición de Walls y Merino (cortesía de Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin)
 ---
 
 A continuación, ofrecemos un breve recuento de manuscritos, primeras ediciones y otros recursos documentales relacionados con la relación de Antonio Pigafetta donde privilegiamos la posibilidad de consulta en línea.

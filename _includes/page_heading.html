@@ -1,6 +1,17 @@
-<div class="mt-4 mb-2 clearfix header-text">
+<!--div class="mt-4 mb-2 clearfix header-text">
   <h1 class="h0 inline-block py-2 mt-4 header-title">{{ page.title }}</h1>
   <div class="clearfix mb-4 py-1">
     <div class="col-1 sm-width-full border-top-thick">
+  </div>
+</div-->
+
+<div class="hero-image" style="background-image: url('{{ site.url }}{{ site.baseurl }}/assets/img/{{ page.featured-img }}');">
+  <div class="hero-text container mx-auto px-2 mt-4 mb-2 clearfix">
+      <h1 class="h0 inline-block py-2 mt-4">{{ page.title }}</h1>
+      <div class="clearfix mb-4 py-1">
+        <div class="col-1 sm-width-full border-top-thick">
+        </div>
+      </div>
+      <p class="text-right">{{ page.img-source }}</p>
   </div>
 </div>
