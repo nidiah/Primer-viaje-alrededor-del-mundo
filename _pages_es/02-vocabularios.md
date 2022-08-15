@@ -7,36 +7,37 @@ featured-img: pages/fortanet-187.jpg
 img-source: Fragmento de vocabulario patagón en edición de Walls y Merino (cortesía de Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin)
 ---
 
-Vocabularios nativos registrados por Pigafetta.
+La obra de Pigafetta es un preciado testimonio para la historia de las lenguas nativas de América del Sur y el Sudeste asiático. Se trata de uno de los primeros registros del tamoio, el techuelche, el antiguo cebuano y el malayo. Si bien el manuscrito original presenta las listas de palabras inmediatamente después de la descripción de cada uno de los pueblos correspondientes, en esta edición decidimos ponerlas en valor en esta sección especial que permite consultarlas de manera más accesible.
 
-## Brasil
+### Lenguas registradas
 
-En su paso por las costas de Río de Janeiro (ver [Particularidades de Brasil y sus habitantes](https://nidiah.github.io/Primer-viaje-alrededor-del-mundo/relacion/pg_0006.html)), Pigafetta registró 12 palabras en Tupí, lengua de la familia tupí-guaraní hablada en ese entonces por los tamoios, pueblo de la parcialidad tupinambá. Se trata, en su mayoría, de palabras relacionadas con el trueque.
+La conciencia de documentar las lenguas de los pueblos contactados se fue gestando durante la misma expedición. Así, los registros se vuelven más extensos y sistemáticos conforme avanza el viaje.
 
-<div class="py-3 table-wrapper-scroll-y my-custom-scrollbar">
-  <table class="table">
+En su paso por las costas de Río de Janeiro (ver [Particularidades de Brasil y sus habitantes](https://nidiah.github.io/Primer-viaje-alrededor-del-mundo/relacion/pg_0006.html)), Pigafetta registró 12 palabras de lo que probablemente haya sido la lengua de los tamoios, pueblo hoy extinto perteneciente a la parcialidad tupinambá y hablante del tupí, lengua de la familia tupí-guaraní. En el breve vocabulario de este pueblo registrado por Pigafetta encontramos, en su mayoría, palabras relacionadas con el trueque.
+
+Tras una estadía de seis meses en territorio patagónico y gracias a la colaboración de un nativo tehuelche tomado cautivo (ver [Descripción del estrecho y muerte del gigante Pablo]({{site.baseurl}}/relacion/pg_0018.html)), el autor logró componer un léxico para el tehuelche, lengua de la familia chona. Este vocabulario, mucho más extenso y más variado, reúne 83 términos que abarcan sustantivos referidos a descripción física, nombres de animales, colores, fenómenos climáticos, elementos de uso cotidiano y siete verbos.
+
+Finalmente, en la etapa asiática de la expedición, Pigafetta elaboró listas de palabras de dos lenguas malayo polinesias: ciento sesenta palabras en el antiguo dialecto de Cebú (Filipinas) y casi cuatrocientas palabras de las Molucas. Gracias a las relaciones más fluidas y prolongadas con estas poblaciones, pudo completar listas más exhaustivas en lo relativo a partes del cuerpo, bienes de intercambio y animales; y más abarcativas, al incluir dominios como la religión, términos de parentesco y de navegación, entre otros.
+
+<div class="py-2"></div>
+_La siguiente tabla muestra las palabras recogidas por Pigafetta en Brasil, la Patagonia, Filipinas y las islas Molucas junto con su glosa en español, ordenadas alfabéticamente._
+
+
+  <table id="table_id" class="display table">
     <thead>
-      <tr><th class="th-sm">Español</th><th class="th-sm">Tupí</th></tr>
+      <tr><th class="th-sm">Español</th><th class="th-sm">Brasil</th><th>Patagonia</th><th>Filipinas</th><th>Molucas</th></tr>
     </thead>
-    {% for row in site.data.vocab-sudamerica %}
-      {%  if row.Land == "Brasil" %}
-          <tr><td>{{ row.Spa_gloss }}</td><td class="italic">{{ row.Word }}</td></tr>
-        {% endif %}
+    <tbody>
+    {% for row in site.data.vocab %}
+        <tr><td>{{ row.Spa_gloss }}</td><td class="italic">{{ row.Brasil }}</td><td class="italic">{{ row.Patagonia }}</td><td class="italic">{{ row.Filipinas }}</td><td class="italic">{{ row.Molucas }}</td></tr>
       {% endfor %}
+    </tbody>
   </table> 	
-</div>
 
-## Patagonia
 
-Gracias a la colaboración de un tehuelche tomado cautivo (ver [Descripción del estrecho y muerte del gigante Pablo]({{site.baseurl}}/relacion/pg_0018.html)), el autor logró reunir una lista de 83 términos de la lengua tehuelche que abarcan sustantivos referidos a descripción física, nombres de animales, colores, fenómenos climáticos, elementos de uso cotidiano y siete verbos.
 
-<div class="py-3 table-wrapper-scroll-y my-custom-scrollbar">
-  <table class="table">
-    <tr><th>Español</th><th>Tehuelche</th></tr>
-  	{% for row in site.data.vocab-sudamerica %}
-  	  {%  if row.Land == "Patagonia" %}
-          <tr><td>{{ row.Spa_gloss }}</td><td class="italic">{{ row.Word }}</td></tr>
-        {% endif %}
-    	{% endfor %}
-  </table> 
-</div>
+<script type="text/javascript">
+$(document).ready( function () {
+    $('#table_id').DataTable();
+} );
+</script>

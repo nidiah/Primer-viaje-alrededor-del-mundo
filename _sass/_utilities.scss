@@ -246,3 +246,20 @@ mark {
   .mb-lg-4 { margin-bottom: $spacer-4; }
   .ml-lg-4 { margin-left: $spacer-4; }
 }
+
+
+
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+
+#content-mobile {display: block;}
+
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}  
