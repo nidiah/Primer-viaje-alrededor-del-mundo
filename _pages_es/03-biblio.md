@@ -38,7 +38,7 @@ A continuación, ofrecemos un breve recuento de manuscritos, primeras ediciones 
 
 * **(fr)** _Premier voyage autour du monde, par le Chevr. Pigafetta, sur l'escadre de Magellan, pendant les années 1519, 20, 21 et 22_. (1801). Trad. Carlo Amoretti. París: H. J. Jansen, imprimeur-libraire. 
 
-<p style="font-size:17px; padding-left:40px; padding-bottom:20px;">Traducción al francés realizada por el mismo Amoretti, ampliada con una biografía de Martín Behaim y una descripción de su globo terráqueo (citado por Pigafetta como inspiración del trayecto de Magallanes; ver sección <a href="#mapas">Mapas</a>). Disponible a través de Gallica - BnF, <a href="https://gallica.bnf.fr/ark:/12148/bpt6k828291" target="_blank">https://gallica.bnf.fr/ark:/12148/bpt6k828291</a>.</p>
+<p style="font-size:17px; padding-left:40px; padding-bottom:20px;">Traducción al francés realizada por el mismo Amoretti, ampliada con una biografía de Martín Behaim y una descripción de su globo terráqueo (citado por Pigafetta como inspiración del trayecto de Magallanes; ver sección <a href="#mapas">Mapas</a>). Disponible a través de Gallica - BnF, <a href="https://gallica.bnf.fr/ark:/12148/bpt6k6585026d" target="_blank">https://gallica.bnf.fr/ark:/12148/bpt6k6585026d</a>.</p>
 
 * **(es)** Navegación y descubrimiento de la India Superior, hecha por mí Antonio Pigafetta, jentil-hombre vicentino, caballero de Rodas. (1888). Trad. José Toribio Medina. En _Colección de documentos inéditos para la historia de Chile: desde el viaje de Magallanes hasta la batalla de Maipo: 1518-1818_. Santiago: Imprenta Ercilla.
 
@@ -50,7 +50,7 @@ A continuación, ofrecemos un breve recuento de manuscritos, primeras ediciones 
 
 * **(es)** _Primer viaje en torno del globo_. (1922). Trad. Federico Ruiz Morcuende. Madrid: Calpe.
 
-<p style="font-size:17px; padding-left:40px; padding-bottom:20px;">Traducción basada en la versión francesa de Moretti. Es una de las traducciones españolas más difundidas. Disponible a través de Internet Archive, <a href="https://archive.org/details/primerviajeentor00piga/page/n9/mode/2up" target="_blank">https://archive.org/details/primerviajeentor00piga/page/n9/mode/2up</a>.</p>
+<p style="font-size:17px; padding-left:40px; padding-bottom:20px;">Traducción basada en la versión francesa de Amoretti. Es una de las traducciones españolas más difundidas. Disponible a través de Internet Archive, <a href="https://archive.org/details/primerviajeentor00piga/page/n9/mode/2up" target="_blank">https://archive.org/details/primerviajeentor00piga/page/n9/mode/2up</a>.</p>
 
 
 ## Textos críticos

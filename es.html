@@ -6,7 +6,7 @@ featured-img: fortanet-55.jpeg
     <div>
 
       <header class="clearfix">
-
+        <!-- Menú -->
         <div class="clearfix border-bottom-thick header-border">
           <ul class="list-reset right py-1 header-text font-smoothing mr-2">
             {% for my_page in site.pages_es %}
@@ -21,20 +21,10 @@ featured-img: fortanet-55.jpeg
             </li>
           </ul>
         </div>
-
-        <!--div class="container mx-auto px-2 mt-4 mb-2 clearfix header-text">
-          <h1 class="h0 inline-block py-2 mt-4 header-title">{{ site.title }}</h1>
-            <div class="clearfix mb-4 py-1">
-              <p class="h3 lh-condensed font-smoothing">Edición digital de la relación de Antonio Pigafetta</p>
-              <div class="col-1 sm-width-full border-top-thick"></div>
-        </div-->
-      <!--div class="container mx-auto px-1">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Lehen_zirkumnabigazioa.gif" alt="navegacion gif"/>
-      </div-->
       
       </header>
 
-      <!-- <div class="hero-image" style="background-image: url('{{ site.url }}{{ site.baseurl }}/assets/img/pages/{{ page.featured-img }}');"> -->
+      <!-- Imagen de portada -->
       <div class="hero-image" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/17/Lehen_zirkumnabigazioa.gif')">
         <div class="hero-text container mx-auto px-2 mt-4 mb-2 clearfix">
             <h1 class="h0 inline-block py-2 mt-4">{{ site.title }}</h1>
@@ -43,19 +33,26 @@ featured-img: fortanet-55.jpeg
               <div class="col-1 sm-width-full border-top-thick">
               </div>
             </div>
+            <p class="text-right">La ruta de la primera circunnavegación, Ane Urrutia</p>
         </div>
       </div>
 
-      <!-- Párrafo de portada -->
+      
       <div class="container mx-auto px-2 py-2">
+
+        <!-- Texto de portada -->
         <div class="py-2 mb-2 prose">
           <p><i>Primer viaje alrededor del mundo</i> es una relación sobre el primer viaje de circunnavegación del mundo comandado por Fernando de Magallanes y Juan Sebastián Elcano. Esta relación se basa en el meticuloso diario de a bordo de Antonio Pigafetta, el cual reúne preciosa información --e inaugura mitos seminales-- acerca de la geografía, la flora y la fauna de las regiones visitadas, así como de las tradiciones y lenguas de las culturas contactadas.</p>
           <p>El texto de Pigafetta no sólo es la primera descripción escrita de la Patagonia y una de las más antiguas fuentes históricas acerca de las Filipinas sino que también puede ser leída como la épica de viaje de una tripulación aventurera, la tragedia de un capitán heroico y el relato legendario de sometimientos, alianzas y traiciones de diferentes pueblos nativos.</p>
           <p>Esta edición digital fue realizada por Nidia Hernández gracias al apoyo de una beca de investigación de <a href="https://llilasbenson.utexas.edu/">LLILAS Benson Latin American Studies and Collections</a>.</p>
         </div>
-      </div><!-- Fin Párrafo de portada -->
+
+        <div style="text-align: center;"><a href="{{site.baseurl}}/toc"><button type="button" class="btn btn-warning">Empezar lectura</button></a></div>
+
+      </div>
         
     
+
     </div>
 
     {% include footer.html %}
