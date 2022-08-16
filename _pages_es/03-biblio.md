@@ -13,7 +13,7 @@ A continuación, ofrecemos un breve recuento de manuscritos, primeras ediciones 
 
 ## Manuscritos
 
-* **(it)** _Viaggio intorno al mondo_. [Italia: 1523-1525]. Milán, [Veneranda Biblioteca Ambosiana](https://ambrosiana.comperio.it).
+* **(it)** _Viaggio intorno al mondo_. [Italia: 1523-1525]. Milán, [Veneranda Biblioteca Ambrosiana](https://ambrosiana.comperio.it).
 
 <p style="font-size:17px; padding-left:40px; padding-bottom:20px;">Manuscrito en italiano (con mezcla de veneciano y español) en el que se basó Carlo Amoretti para la edición que hoy es tenida por la más fiel al relato original de Pigafetta. Digitalización disponible para lectura a través de <a href="http://213.21.172.25/0b02da8280085ee9" target="_blank">http://213.21.172.25/0b02da8280085ee9.</a></p>
 
@@ -34,7 +34,7 @@ A continuación, ofrecemos un breve recuento de manuscritos, primeras ediciones 
 
 * **(it)** _Primo Viaggio Intorno al Globo Terracqueo_. (1800). Trad. Carlo Amoretti. Milán: Stamperia di Giuseppe Galeazzi. 
 
-<p style="font-size:17px; padding-left:40px; padding-bottom:20px;">Esta edición incluye otro texto de Pigafetta, "Tratatto di Navigazione" y un detallado prólogo de Amoretti. Disponible a través de Google Books, <a href="https://books.google.es/books?id=xknW1neprkcC&lpg=PA157&ots=rLejsq8Elg&dq=pigafetta%20moreti%20primo%20viaggio&hl=es&pg=PP1#v=onepage&q=pigafetta%20moreti%20primo%20viaggio&f=false" target="_blank">ver</a>.</p>
+<p style="font-size:17px; padding-left:40px; padding-bottom:20px;">Edición realizada por Carlo Amoretti, basada en el manuscrito de Milán, hoy tenida por la más fiel al original. Esta edición, precedida de un detallado prólogo de Amoretti y acompañada de numerosas notas, incluye otro texto de Pigafetta, "Tratatto di Navigazione". Disponible en Biblioteca universitaria Alessandrina, en línea a través de Google Books, <a href="https://books.google.es/books?id=xknW1neprkcC&lpg=PA157&ots=rLejsq8Elg&dq=pigafetta%20moreti%20primo%20viaggio&hl=es&pg=PP1#v=onepage&q=pigafetta%20moreti%20primo%20viaggio&f=false" target="_blank">https://books.google.es/books?id=xknW1neprkcC</a>.</p>
 
 * **(fr)** _Premier voyage autour du monde, par le Chevr. Pigafetta, sur l'escadre de Magellan, pendant les années 1519, 20, 21 et 22_. (1801). Trad. Carlo Amoretti. París: H. J. Jansen, imprimeur-libraire. 
 
@@ -50,7 +50,7 @@ A continuación, ofrecemos un breve recuento de manuscritos, primeras ediciones 
 
 * **(es)** _Primer viaje en torno del globo_. (1922). Trad. Federico Ruiz Morcuende. Madrid: Calpe.
 
-<p style="font-size:17px; padding-left:40px; padding-bottom:20px;">Traducción basada en la versión francesa de Amoretti. Es una de las traducciones españolas más difundidas. Disponible a través de Internet Archive, <a href="https://archive.org/details/primerviajeentor00piga/page/n9/mode/2up" target="_blank">https://archive.org/details/primerviajeentor00piga/page/n9/mode/2up</a>.</p>
+<p style="font-size:17px; padding-left:40px; padding-bottom:20px;">Traducción basada en la versión francesa de Amoretti. Es una de las traducciones españolas más difundidas. Disponible en Brandeis University Libraries, en línea a través de Internet Archive, <a href="https://archive.org/details/primerviajeentor00piga/page/n9/mode/2up" target="_blank">https://archive.org/details/primerviajeentor00piga/page/n9/mode/2up</a>.</p>
 
 
 ## Textos críticos

@@ -29,6 +29,6 @@ La presente edición digital fue realizada por Nidia Hernádez con el apoyo de [
 
 Citar esta edición como: 
 
-<p style="font-size: 17px;">Hernández, Nidia (ed). (2022). Antonio Pigafetta. <i>Primer viaje alrededor del mundo</i>. <a href="{{ site.baseurl }}/">{{ site.url }}{{site.baseurl}}</a>, [ Consultado el {{ site.time | date: '%Y-%m-%d' }}].</p>
+<p style="font-size: 17px;">Hernández, Nidia (ed). (2022). Antonio Pigafetta. <i>Primer viaje alrededor del mundo</i>. <a href="{{ site.baseurl }}/">{{ site.url }}{{site.baseurl}}</a>, [Consultado el {{ site.time | date: '%Y-%m-%d' }}].</p>
 
 Se comparte a través de la licencia  Creative Commons 4.0 (CC BY 4.0).
