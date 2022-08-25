@@ -30,7 +30,7 @@ A continuación, ofrecemos un breve recuento de manuscritos, primeras ediciones 
 <p style="font-size:17px; padding-left:40px; padding-bottom:20px;">Este ejemplar también incluye "Description de la sphère" y es igualmente derivado de la versión Fabre. De los cuatro manuscritos preservados, es el que posee los mapas más delicadamente ilustrados. Disponible para lectura online y descarga a través de Gallica - BnF, <a href="https://gallica.bnf.fr/ark:/12148/btv1b10023015z/" target="_blank">https://gallica.bnf.fr/ark:/12148/btv1b10023015z/</a>.</p>
 
 
-## Ediciones de _Primer viaje alrededor del mundo_
+## Ediciones impresas
 
 * **(it)** _Primo Viaggio Intorno al Globo Terracqueo_. (1800). Trad. Carlo Amoretti. Milán: Stamperia di Giuseppe Galeazzi. 
 

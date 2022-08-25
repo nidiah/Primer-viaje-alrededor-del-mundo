@@ -20,6 +20,8 @@ collections:
     #  output: true
     pages_es:
       output: true
+    lectura_dist:
+      output: true
     recursos:
       output: true
     relacion:
