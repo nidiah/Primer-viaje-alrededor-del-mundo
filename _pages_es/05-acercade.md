@@ -22,13 +22,44 @@ Al tratarse de un diario de expedición, _Primer viaje alrededor del mundo_ es u
 
 <figure class="py-3">
 	<img src="{{site.baseurl}}/assets/img/pages/annotations-by-tag.png" alt="vista anotaciones"/>
-	<figcaption>Anotaciones de entidades espaciales, temporales y de persona realizadas con <a href="https://recogito.pelagios.org/document/t3sfmnszhxju8n/part/1/edit">Recogito</a>.</figcaption>
+	<figcaption>Anotaciones de entidades de persona realizadas con <a href="https://recogito.pelagios.org/document/t3sfmnszhxju8n/part/1/edit">Recogito</a>.</figcaption>
 </figure>
 
-La presente edición digital fue realizada por Nidia Hernádez con el apoyo de [LLILAS Benson Latin American Studies and Collections](https://llilasbenson.utexas.edu/) y se inscribe dentro de la iniciativa [Pelagios al Sur](http://hdlab.space/biblioteca-digital/), un proyecto de humanidades digitales de georreferenciación de textos que abarcan la exploración y conquista (siglos XVI-XVII) del sur del continente americano. _Primer viaje alrededor del mundo_ inaugura el capítulo patagónico de este proyecto, ampliando la cobertura del corpus más allá de la región del Río de la Plata.
+La presente edición digital fue realizada por <a class="portfolio-link" data-toggle="modal" href="#portfolioModal">Nidia Hernández</a> con el apoyo de [LLILAS Benson Latin American Studies and Collections](https://llilasbenson.utexas.edu/) y se inscribe dentro de la iniciativa [Pelagios al Sur](http://hdlab.space/biblioteca-digital/), un proyecto de humanidades digitales de georreferenciación de textos que abarcan la exploración y conquista (siglos XVI-XVII) del sur del continente americano. _Primer viaje alrededor del mundo_ inaugura el capítulo patagónico de este proyecto, ampliando la cobertura del corpus más allá de la región del Río de la Plata.
 
 Citar esta edición como: 
 
 <p style="font-size: 17px;">Hernández, Nidia (ed). (2022). Antonio Pigafetta. <i>Primer viaje alrededor del mundo</i>. <a href="{{ site.baseurl }}/">{{ site.url }}{{site.baseurl}}</a>, [Consultado el {{ site.time | date: '%Y-%m-%d' }}].</p>
 
 Se comparte a través de la licencia  Creative Commons 4.0 (CC BY 4.0).
+
+<div class="modal fade" id="portfolioModal" role="dialog">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+      <h4 class="modal-title">Nidia Hernández</h4>
+    </div>
+    <div class="modal-body">
+      <div style="text-align: center;">
+      <img src="{{ site.baseurl }}/assets/img/pages/NH-photo.jpg" style="width: 50%; border-radius: 14px;border: 7px solid #222222;">
+      </div>
+      <p class="py-3">Nidia Hernández es linguista (Universidad de Buenos Aires) y especialista en procesamiento del lenguaje natural (Paris 3/INALCO). Es responsable de ingeniería de datos en CAICYT-CONICET (Buenos Aires, Argentina) donde desarrolla recursos para proyectos de Humanidades Digitales y colabora con documentación, procesamiento y análisis de lenguas en peligro de América del Sur.</p>
+      <div class="mb-4">
+        <ul class="list-reset right ">
+          <li class="inline-block mr-1">
+            {% include twitter.html %}
+          </li>
+          <li class="inline-block mr-1">
+            {% include email.html %}
+          </li>
+          <li class="inline-block">
+            {% include github.html %}
+          </li>
+        </ul>
+      </div> 
+      <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+    </div>
+  </div>
+</div>
+</div>  

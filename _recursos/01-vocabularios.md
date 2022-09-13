@@ -15,9 +15,9 @@ La conciencia de documentar las lenguas de los pueblos contactados se fue gestan
 
 En su paso por las costas de Río de Janeiro (ver [Particularidades de Brasil y sus habitantes]({{site.baseurl}}/relacion/pg_0006.html)), Pigafetta registró 12 palabras de lo que probablemente haya sido la lengua de los tamoios, pueblo hoy extinto perteneciente a la parcialidad tupinambá y hablante del tupí, lengua de la familia tupí-guaraní. En el breve vocabulario de este pueblo registrado por Pigafetta encontramos, en su mayoría, palabras relacionadas con el trueque.
 
-Tras una estadía de seis meses en territorio patagónico y gracias a la colaboración de un nativo tehuelche tomado cautivo (ver [Descripción del estrecho y muerte del gigante Pablo]({{site.baseurl}}/relacion/pg_0018.html)), el autor logró componer un léxico para el tehuelche, lengua de la familia chona. Este vocabulario, mucho más extenso y más variado, reúne 83 términos que abarcan sustantivos referidos a descripción física, nombres de animales, colores, fenómenos climáticos, elementos de uso cotidiano y siete verbos.
+Tras una estadía de seis meses en territorio patagónico y gracias a la colaboración de un nativo tehuelche tomado cautivo (ver [Descripción del estrecho y muerte del gigante Pablo]({{site.baseurl}}/relacion/pg_0018.html)), el autor logró componer un léxico para el aonikenk (tehuelche), lengua de la familia chona. Este vocabulario, mucho más extenso y más variado, reúne 83 términos que abarcan sustantivos referidos a descripción física, nombres de animales, colores, fenómenos climáticos, elementos de uso cotidiano y siete verbos.
 
-Finalmente, en la etapa asiática de la expedición, Pigafetta elaboró listas de palabras de dos lenguas malayo polinesias: 160 palabras en el antiguo dialecto de Cebú (Filipinas) y casi 400 palabras de las Molucas. Gracias a las relaciones más fluidas y prolongadas con estas poblaciones (ver [Libro II y Libro III]({{site.baseurl}}/toc), respectivamente), pudo completar listas más exhaustivas en lo relativo a partes del cuerpo, bienes de intercambio y animales; y más abarcativas, al incluir dominios como la religión, términos de parentesco y de navegación, entre otros.
+Finalmente, en la etapa asiática de la expedición, Pigafetta elaboró listas de palabras de dos lenguas malayo polinesias: 160 palabras en bisaya, el antiguo dialecto de Cebú (Filipinas) y casi 400 palabras de las Molucas. Gracias a las relaciones más fluidas y prolongadas con estas poblaciones (ver [Libro II y Libro III]({{site.baseurl}}/toc), respectivamente), pudo completar listas más exhaustivas en lo relativo a partes del cuerpo, bienes de intercambio y animales; y más abarcativas, al incluir dominios como la religión, términos de parentesco y de navegación, entre otros.
 
 <div class="py-2"></div>
 _La siguiente tabla muestra las palabras recogidas por Pigafetta en Brasil, la Patagonia, Filipinas y las islas Molucas junto con su glosa en español, ordenadas alfabéticamente._
@@ -25,7 +25,7 @@ _La siguiente tabla muestra las palabras recogidas por Pigafetta en Brasil, la P
 
   <table id="table_id" class="display table">
     <thead>
-      <tr><th class="th-sm">Español</th><th class="th-sm">Brasil</th><th>Patagonia</th><th>Filipinas</th><th>Molucas</th></tr>
+      <tr><th class="th-sm">Español</th><th class="th-sm">Brasil (tamoio)</th><th>Patagonia (aonikenk)</th><th>Filipinas (bisaya)</th><th>Molucas</th></tr>
     </thead>
     <tbody>
     {% for row in site.data.vocab %}
