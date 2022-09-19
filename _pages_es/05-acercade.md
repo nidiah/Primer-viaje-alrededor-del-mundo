@@ -33,6 +33,14 @@ Citar esta edición como:
 
 Se comparte a través de la licencia  Creative Commons 4.0 (CC BY 4.0).
 
+<div class="py-3">
+  <h3>Responsable editorial:</h3>
+  <p><a class="portfolio-link no-underline" data-toggle="modal" href="#portfolioModal">Nidia Hernández</a></p>
+  <span>Saavedra 15, 1er piso</span><br>
+  <span>C1083ACA - CABA - Argentina</span><br>
+  <span>Tel: (054 11) 4951-8334 / 7310 (interno 16)</span>
+</div>
+
 <div class="modal fade" id="portfolioModal" role="dialog">
 <div class="modal-dialog">
   <div class="modal-content">
