@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Otros recursos
+title: Recursos
 permalink: /recursos/
 type: extras
 featured-img: pages/indios-amoretti-103.png
