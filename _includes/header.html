@@ -6,15 +6,39 @@
           Inicio
         </a>
       </li>
-      {% for my_page in site.pages_es %}
-        {% if my_page.title %}
-        <li class="inline-block">
-          <a class="align-middle no-underline h4 mr-2 mr-lg-0 ml-lg-2 font-smoothing" href="{{ my_page.url | prepend: site.baseurl }}">
-            {{ my_page.title }}
-          </a>
-        </li>
-        {% endif %}
-      {% endfor %}
+      <li class="inline-block">
+        <a class="align-middle no-underline h4 mr-2 mr-lg-0 ml-lg-2 font-smoothing" href="{{ site.baseurl }}/toc">Edición digital</a>
+      </li>
+      <li class="inline-block">
+        <div class="dropdown">
+          <a class="align-middle no-underline h4 mr-2 mr-lg-0 ml-lg-2 font-smoothing dropdown__link" href="{{ site.baseurl }}/lectura-dist">Lectura distante</a>
+          <div class="dropdown-content">
+            <a class="dropdown-item" href="{{ site.baseurl }}/mapa">Mapa</a>
+            <a class="dropdown-item" href="{{ site.baseurl }}/linea-de-tiempo">Línea de tiempo</a>
+            <a class="dropdown-item" href="{{ site.baseurl }}/narrative-chart">Diagrama de narrativa</a>
+            <a class="dropdown-item" href="{{ site.baseurl }}/textometria">Textometría</a>
+          </div>
+        </div>
+      </li>
+      <li class="inline-block">
+        <div class="dropdown">
+          <a class="align-middle no-underline h4 mr-2 mr-lg-0 ml-lg-2 font-smoothing" href="{{ site.baseurl }}/recursos">Recursos</a>
+          <div class="dropdown-content">
+            <a class="dropdown-item" href="{{ site.baseurl }}/vocabularios">Vocabularies</a>
+            <a class="dropdown-item" href="{{ site.baseurl }}/biblio">Bibliography</a>
+            <a class="dropdown-item" href="{{ site.baseurl }}/descargas">Downloads</a>
+          </div>
+        </div>
+      </li>
+      <li class="inline-block">
+        <a class="align-middle no-underline h4 mr-2 mr-lg-0 ml-lg-2 font-smoothing" href="{{ site.baseurl }}/buscar">Buscar</a>
+      </li>
+      <li class="inline-block">
+        <a class="align-middle no-underline h4 mr-2 mr-lg-0 ml-lg-2 font-smoothing" href="{{ site.baseurl }}/acerca-de">Acerca de</a>
+      </li>
+      <li class="inline-block">
+        <a class="align-middle bold no-underline h4 mr-2 mr-lg-0 ml-lg-2 font-smoothing" href="{{ site.baseurl }}/index.html">English</a>
+      </li>
       {% if page.type == "texto" %}
         <li class="inline-block ml-2"><span style='cursor:pointer;' onclick="javascript:var hypothesis = document.createElement('script');hypothesis.setAttribute('src','https://hypothes.is/embed.js');document.head.appendChild(hypothesis);"><button class="h4" >Anotar</button></span></li>
       {% endif %}
