@@ -1,6 +1,5 @@
 {
     "characters": [
-        // nativos aliados, verde
         {"id": "PDV", "name": "pueblo del Verzin", "affiliation": "nativos aliados"},
         {"id": "PDP", "name": "pueblos de Pulaoan", "affiliation": "nativos aliados"},
         {"id": "PDZ", "name": "pueblo de Zulu\u00e1n", "affiliation": "nativos aliados"},
@@ -17,7 +16,6 @@
         {"id": "RDM", "name": "reina de Mindanao", "affiliation": "nativos aliados"},
         {"id": "SIR", "name": "Siripada", "affiliation": "nativos aliados"},
         {"id": "RDB", "name": "rey de Bachian", "affiliation": "nativos aliados"},
-        // nativos capturados, sometidos, rebelados, azul
         {"id": "PAT", "name": "Patagones", "affiliation": "nativos enemigos"},
         {"id": "PAB", "name": "Pablo", "affiliation": "nativos enemigos"},
         {"id": "JUA", "name": "Juan", "affiliation": "nativos enemigos"},
@@ -25,7 +23,6 @@
         {"id": "HUM", "name": "Humab\u00f3n", "affiliation": "nativos enemigos"},
         {"id": "PDM", "name": "piloto de Molucas", "affiliation": "nativos enemigos"},
         {"id": "MDB", "name": "moros de Borneo", "affiliation": "nativos enemigos"},  
-        // exploradores, negro
         {"id": "FDM", "name": "Fernando de Magallanes", "affiliation": "explorador"},
         {"id": "PIG", "name": "Pigafetta", "affiliation": "explorador"},
         {"id": "JCA", "name": "Juan Carvajo", "affiliation": "explorador"},
@@ -35,7 +32,6 @@
         {"id": "PVA", "name": "Pedro de Valderrama", "affiliation": "explorador"},
         {"id": "FSE", "name": "Francisco Serrano", "affiliation": "explorador"},
         {"id": "PAL", "name": "Pedro Alfonso de Lorosa", "affiliation": "explorador"},
-        // traidores, amenaza, rojo
         {"id": "ACO", "name": "Antonio Coca", "affiliation": "traidor"},
         {"id": "JDC", "name": "Juan de Cartagena", "affiliation": "traidor"},
         {"id": "LDM", "name": "Luis de Mendoza", "affiliation": "traidor"},
@@ -45,7 +41,6 @@
         {"id": "EMA", "name": "Enrique de M\u00e1lacca", "affiliation": "traidor"},
         {"id": "TDM", "name": "Trist\u00e1n de Meneses", "affiliation": "traidor"},
         {"id": "CPO", "name": "colonos portugueses", "affiliation": "traidor"}
-        
     ],
     "scenes": [
         [
