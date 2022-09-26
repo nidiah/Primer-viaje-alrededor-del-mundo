@@ -1,0 +1,451 @@
+<svg id="narrative-chart" width="1000" height="660.6538461538462">
+<g class="scene" transform="translate(258.5,0.5)">
+<rect width="20" height="30" y="0" x="0" rx="10"></rect>
+<circle cx="10" cy="16.5" r="2" class="appearance explorador"></circle>
+</g>
+<g class="scene" transform="translate(407.5,0.5)">
+<rect width="20" height="234" y="0" x="0" rx="10"></rect>
+<circle cx="10" cy="16.5" r="2" class="appearance explorador"></circle>
+<circle cx="10" cy="33.5" r="2" class="appearance aliados"></circle>
+<circle cx="10" cy="50.5" r="2" class="appearance explorador"></circle>
+<circle cx="10" cy="67.5" r="2" class="appearance enemigos"></circle>
+<circle cx="10" cy="84.5" r="2" class="appearance enemigos"></circle>
+<circle cx="10" cy="101.5" r="2" class="appearance traidor"></circle>
+<circle cx="10" cy="118.5" r="2" class="appearance traidor"></circle>
+<circle cx="10" cy="135.5" r="2" class="appearance traidor"></circle>
+<circle cx="10" cy="152.5" r="2" class="appearance traidor"></circle>
+<circle cx="10" cy="169.5" r="2" class="appearance traidor"></circle>
+<circle cx="10" cy="186.5" r="2" class="appearance traidor"></circle>
+<circle cx="10" cy="203.5" r="2" class="appearance explorador"></circle>
+<circle cx="10" cy="220.5" r="2" class="appearance enemigos"></circle>
+</g>
+<g class="scene" transform="translate(555.5,130.5)">
+<rect width="20" height="319" y="0" x="0" rx="10"></rect>
+<circle cx="10" cy="16.5" r="2" class="appearance explorador"></circle>
+<circle cx="10" cy="33.5" r="2" class="appearance explorador"></circle>
+<circle cx="10" cy="50.5" r="2" class="appearance explorador"></circle>
+<circle cx="10" cy="67.5" r="2" class="appearance enemigos"></circle>
+<circle cx="10" cy="84.5" r="2" class="appearance explorador"></circle>
+<circle cx="10" cy="101.5" r="2" class="appearance aliados"></circle>
+<circle cx="10" cy="118.5" r="2" class="appearance aliados"></circle>
+<circle cx="10" cy="135.5" r="2" class="appearance traidor"></circle>
+<circle cx="10" cy="152.5" r="2" class="appearance aliados"></circle>
+<circle cx="10" cy="169.5" r="2" class="appearance aliados"></circle>
+<circle cx="10" cy="186.5" r="2" class="appearance enemigos"></circle>
+<circle cx="10" cy="203.5" r="2" class="appearance aliados"></circle>
+<circle cx="10" cy="220.5" r="2" class="appearance aliados"></circle>
+<circle cx="10" cy="237.5" r="2" class="appearance aliados"></circle>
+<circle cx="10" cy="254.5" r="2" class="appearance enemigos"></circle>
+<circle cx="10" cy="271.5" r="2" class="appearance explorador"></circle>
+<circle cx="10" cy="288.5" r="2" class="appearance explorador"></circle>
+<circle cx="10" cy="305.5" r="2" class="appearance explorador"></circle>
+</g>
+<g class="scene" transform="translate(703.5,377.5)">
+<rect width="20" height="234" y="0" x="0" rx="10"></rect>
+<circle cx="10" cy="16.5" r="2" class="appearance explorador"></circle>
+<circle cx="10" cy="33.5" r="2" class="appearance aliados"></circle>
+<circle cx="10" cy="50.5" r="2" class="appearance aliados"></circle>
+<circle cx="10" cy="67.5" r="2" class="appearance aliados"></circle>
+<circle cx="10" cy="84.5" r="2" class="appearance explorador"></circle>
+<circle cx="10" cy="101.5" r="2" class="appearance aliados"></circle>
+<circle cx="10" cy="118.5" r="2" class="appearance aliados"></circle>
+<circle cx="10" cy="135.5" r="2" class="appearance explorador"></circle>
+<circle cx="10" cy="152.5" r="2" class="appearance aliados"></circle>
+<circle cx="10" cy="169.5" r="2" class="appearance aliados"></circle>
+<circle cx="10" cy="186.5" r="2" class="appearance aliados"></circle>
+<circle cx="10" cy="203.5" r="2" class="appearance aliados"></circle>
+<circle cx="10" cy="220.5" r="2" class="appearance traidor"></circle>
+</g>
+<g class="scene" transform="translate(852.5,521.5)">
+<rect width="20" height="81" y="0" x="0" rx="10"></rect>
+<circle cx="10" cy="16.5" r="2" class="appearance explorador"></circle>
+<circle cx="10" cy="33.5" r="2" class="appearance enemigos"></circle>
+<circle cx="10" cy="50.5" r="2" class="appearance enemigos"></circle>
+<circle cx="10" cy="67.5" r="2" class="appearance traidor"></circle>
+</g>
+<path class="link explorador" d="M110,16.5C189.16666666666669,16.5 189.16666666666669,16.5 268.33333333333337,16.5">
+</path>
+<path class="link explorador" d="M268.33333333333337,16.5C342.5,16.5 342.5,16.5 416.6666666666667,16.5">
+</path>
+<path class="link explorador" d="M416.6666666666667,16.5C490.83333333333337,16.5 490.83333333333337,146.94444444444446 565,146.94444444444446">
+</path>
+<path class="link aliados" d="M332.5,37.5C374.58333333333337,37.5 374.58333333333337,33.5 416.6666666666667,33.5">
+</path>
+<path class="link explorador" d="M332.5,52.5C374.58333333333337,52.5 374.58333333333337,50.5 416.6666666666667,50.5">
+</path>
+<path class="link explorador" d="M416.6666666666667,50.5C490.83333333333337,50.5 490.83333333333337,163.94444444444446 565,163.94444444444446">
+</path>
+<path class="link explorador" d="M565,163.94444444444446C639.1666666666667,163.94444444444446 639.1666666666667,393.15384615384613 713.3333333333334,393.15384615384613">
+</path>
+<path class="link enemigos" d="M332.5,67.5C374.58333333333337,67.5 374.58333333333337,67.5 416.6666666666667,67.5">
+</path>
+<path class="link enemigos" d="M332.5,84.5C374.58333333333337,84.5 374.58333333333337,84.5 416.6666666666667,84.5">
+</path>
+<path class="link traidor" d="M332.5,101.5C374.58333333333337,101.5 374.58333333333337,101.5 416.6666666666667,101.5">
+</path>
+<path class="link traidor" d="M332.5,118.5C374.58333333333337,118.5 374.58333333333337,118.5 416.6666666666667,118.5">
+</path>
+<path class="link traidor" d="M332.5,135.5C374.58333333333337,135.5 374.58333333333337,135.5 416.6666666666667,135.5">
+</path>
+<path class="link traidor" d="M332.5,152.5C374.58333333333337,152.5 374.58333333333337,152.5 416.6666666666667,152.5">
+</path>
+<path class="link traidor" d="M332.5,169.5C374.58333333333337,169.5 374.58333333333337,169.5 416.6666666666667,169.5">
+</path>
+<path class="link traidor" d="M332.5,186.5C374.58333333333337,186.5 374.58333333333337,186.5 416.6666666666667,186.5">
+</path>
+<path class="link explorador" d="M332.5,203.5C374.58333333333337,203.5 374.58333333333337,203.5 416.6666666666667,203.5">
+</path>
+<path class="link explorador" d="M416.6666666666667,203.5C490.83333333333337,203.5 490.83333333333337,180.94444444444446 565,180.94444444444446">
+</path>
+<path class="link enemigos" d="M332.5,220.5C374.58333333333337,220.5 374.58333333333337,220.5 416.6666666666667,220.5">
+</path>
+<path class="link enemigos" d="M416.6666666666667,220.5C490.83333333333337,220.5 490.83333333333337,197.94444444444446 565,197.94444444444446">
+</path>
+<path class="link explorador" d="M480.8333333333333,241.5C522.9166666666666,241.5 522.9166666666666,214.94444444444446 565,214.94444444444446">
+</path>
+<path class="link explorador" d="M565,214.94444444444446C713.3333333333334,214.94444444444446 713.3333333333334,537 861.6666666666667,537">
+</path>
+<path class="link aliados" d="M480.8333333333333,256.5C522.9166666666666,256.5 522.9166666666666,231.94444444444446 565,231.94444444444446">
+</path>
+<path class="link aliados" d="M480.8333333333333,271.5C522.9166666666666,271.5 522.9166666666666,248.94444444444446 565,248.94444444444446">
+</path>
+<path class="link traidor" d="M480.8333333333333,286.5C522.9166666666666,286.5 522.9166666666666,265.94444444444446 565,265.94444444444446">
+</path>
+<path class="link aliados" d="M480.8333333333333,301.5C522.9166666666666,301.5 522.9166666666666,282.94444444444446 565,282.94444444444446">
+</path>
+<path class="link aliados" d="M565,282.94444444444446C639.1666666666667,282.94444444444446 639.1666666666667,410.15384615384613 713.3333333333334,410.15384615384613">
+</path>
+<path class="link aliados" d="M480.8333333333333,316.5C522.9166666666666,316.5 522.9166666666666,299.94444444444446 565,299.94444444444446">
+</path>
+<path class="link enemigos" d="M480.8333333333333,331.5C522.9166666666666,331.5 522.9166666666666,316.94444444444446 565,316.94444444444446">
+</path>
+<path class="link aliados" d="M480.8333333333333,346.5C522.9166666666666,346.5 522.9166666666666,333.94444444444446 565,333.94444444444446">
+</path>
+<path class="link aliados" d="M480.8333333333333,361.5C522.9166666666666,361.5 522.9166666666666,350.94444444444446 565,350.94444444444446">
+</path>
+<path class="link aliados" d="M480.8333333333333,376.5C522.9166666666666,376.5 522.9166666666666,367.94444444444446 565,367.94444444444446">
+</path>
+<path class="link enemigos" d="M480.8333333333333,391.5C522.9166666666666,391.5 522.9166666666666,384.94444444444446 565,384.94444444444446">
+</path>
+<path class="link explorador" d="M480.8333333333333,406.5C522.9166666666666,406.5 522.9166666666666,401.94444444444446 565,401.94444444444446">
+</path>
+<path class="link explorador" d="M480.8333333333333,421.5C522.9166666666666,421.5 522.9166666666666,418.94444444444446 565,418.94444444444446">
+</path>
+<path class="link explorador" d="M480.8333333333333,436.5C522.9166666666666,436.5 522.9166666666666,435.94444444444446 565,435.94444444444446">
+</path>
+<path class="link aliados" d="M629.1666666666667,456.94444444444446C671.25,456.94444444444446 671.25,427.15384615384613 713.3333333333334,427.15384615384613">
+</path>
+<path class="link aliados" d="M629.1666666666667,471.94444444444446C671.25,471.94444444444446 671.25,444.15384615384613 713.3333333333334,444.15384615384613">
+</path>
+<path class="link explorador" d="M629.1666666666667,486.94444444444446C671.25,486.94444444444446 671.25,461.15384615384613 713.3333333333334,461.15384615384613">
+</path>
+<path class="link aliados" d="M629.1666666666667,501.94444444444446C671.25,501.94444444444446 671.25,478.15384615384613 713.3333333333334,478.15384615384613">
+</path>
+<path class="link aliados" d="M629.1666666666667,516.9444444444445C671.25,516.9444444444445 671.25,495.15384615384613 713.3333333333334,495.15384615384613">
+</path>
+<path class="link explorador" d="M629.1666666666667,531.9444444444445C671.25,531.9444444444445 671.25,512.1538461538462 713.3333333333334,512.1538461538462">
+</path>
+<path class="link aliados" d="M629.1666666666667,546.9444444444445C671.25,546.9444444444445 671.25,529.1538461538462 713.3333333333334,529.1538461538462">
+</path>
+<path class="link aliados" d="M629.1666666666667,561.9444444444445C671.25,561.9444444444445 671.25,546.1538461538462 713.3333333333334,546.1538461538462">
+</path>
+<path class="link aliados" d="M629.1666666666667,576.9444444444445C671.25,576.9444444444445 671.25,563.1538461538462 713.3333333333334,563.1538461538462">
+</path>
+<path class="link aliados" d="M629.1666666666667,591.9444444444445C671.25,591.9444444444445 671.25,580.1538461538462 713.3333333333334,580.1538461538462">
+</path>
+<path class="link traidor" d="M629.1666666666667,606.9444444444445C671.25,606.9444444444445 671.25,597.1538461538462 713.3333333333334,597.1538461538462">
+</path>
+<path class="link enemigos" d="M777.5000000000001,643.1538461538462C819.5833333333335,643.1538461538462 819.5833333333335,554 861.6666666666667,554">
+</path>
+<path class="link enemigos" d="M777.5000000000001,633.1538461538462C819.5833333333335,633.1538461538462 819.5833333333335,571 861.6666666666667,571">
+</path>
+<path class="link traidor" d="M777.5000000000001,618.1538461538462C819.5833333333335,618.1538461538462 819.5833333333335,588 861.6666666666667,588">
+</path>
+<g class="intro" transform="translate(110,17)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="explorador"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Magallanes</text>
+<text class="color explorador" text-anchor="end" y="4px" x="-8px">Magallanes</text>
+</g>
+</g>
+<g class="intro" transform="translate(333,38)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="aliados"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">pueblo del Verzin</text>
+<text class="color aliados" text-anchor="end" y="4px" x="-8px">pueblo del Verzin</text>
+</g>
+</g>
+<g class="intro" transform="translate(333,53)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="explorador"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Juan Carvajo</text>
+<text class="color explorador" text-anchor="end" y="4px" x="-8px">Juan Carvajo</text>
+</g>
+</g>
+<g class="intro" transform="translate(333,68)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="enemigos"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Juan</text>
+<text class="color enemigos" text-anchor="end" y="4px" x="-8px">Juan</text>
+</g>
+</g>
+<g class="intro" transform="translate(333,85)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="enemigos"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Patagones</text>
+<text class="color enemigos" text-anchor="end" y="4px" x="-8px">Patagones</text>
+</g>
+</g>
+<g class="intro" transform="translate(333,102)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="traidor"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Juan de Cartagena</text>
+<text class="color traidor" text-anchor="end" y="4px" x="-8px">Juan de Cartagena</text>
+</g>
+</g>
+<g class="intro" transform="translate(333,119)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="traidor"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Luis de Mendoza</text>
+<text class="color traidor" text-anchor="end" y="4px" x="-8px">Luis de Mendoza</text>
+</g>
+</g>
+<g class="intro" transform="translate(333,136)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="traidor"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Antonio Coca</text>
+<text class="color traidor" text-anchor="end" y="4px" x="-8px">Antonio Coca</text>
+</g>
+</g>
+<g class="intro" transform="translate(333,153)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="traidor"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Gaspar de Quesada</text>
+<text class="color traidor" text-anchor="end" y="4px" x="-8px">Gaspar de Quesada</text>
+</g>
+</g>
+<g class="intro" transform="translate(333,170)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="traidor"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Pero Sánchez de la Reina</text>
+<text class="color traidor" text-anchor="end" y="4px" x="-8px">Pero Sánchez de la Reina</text>
+</g>
+</g>
+<g class="intro" transform="translate(333,187)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="traidor"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Esteban Gómez</text>
+<text class="color traidor" text-anchor="end" y="4px" x="-8px">Esteban Gómez</text>
+</g>
+</g>
+<g class="intro" transform="translate(333,204)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="explorador"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Juan Serrano</text>
+<text class="color explorador" text-anchor="end" y="4px" x="-8px">Juan Serrano</text>
+</g>
+</g>
+<g class="intro" transform="translate(333,221)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="enemigos"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Pablo</text>
+<text class="color enemigos" text-anchor="end" y="4px" x="-8px">Pablo</text>
+</g>
+</g>
+<g class="intro" transform="translate(481,242)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="explorador"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Pigafetta</text>
+<text class="color explorador" text-anchor="end" y="4px" x="-8px">Pigafetta</text>
+</g>
+</g>
+<g class="intro" transform="translate(481,257)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="aliados"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">pueblo de Zuluán</text>
+<text class="color aliados" text-anchor="end" y="4px" x="-8px">pueblo de Zuluán</text>
+</g>
+</g>
+<g class="intro" transform="translate(481,272)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="aliados"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">pueblo de Butuán</text>
+<text class="color aliados" text-anchor="end" y="4px" x="-8px">pueblo de Butuán</text>
+</g>
+</g>
+<g class="intro" transform="translate(481,287)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="traidor"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Enrique de Málacca</text>
+<text class="color traidor" text-anchor="end" y="4px" x="-8px">Enrique de Málacca</text>
+</g>
+</g>
+<g class="intro" transform="translate(481,302)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="aliados"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Colambu</text>
+<text class="color aliados" text-anchor="end" y="4px" x="-8px">Colambu</text>
+</g>
+</g>
+<g class="intro" transform="translate(481,317)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="aliados"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Siain</text>
+<text class="color aliados" text-anchor="end" y="4px" x="-8px">Siain</text>
+</g>
+</g>
+<g class="intro" transform="translate(481,332)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="enemigos"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Humabón</text>
+<text class="color enemigos" text-anchor="end" y="4px" x="-8px">Humabón</text>
+</g>
+</g>
+<g class="intro" transform="translate(481,347)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="aliados"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Bendara</text>
+<text class="color aliados" text-anchor="end" y="4px" x="-8px">Bendara</text>
+</g>
+</g>
+<g class="intro" transform="translate(481,362)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="aliados"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Hara Humamay</text>
+<text class="color aliados" text-anchor="end" y="4px" x="-8px">Hara Humamay</text>
+</g>
+</g>
+<g class="intro" transform="translate(481,377)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="aliados"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Zula</text>
+<text class="color aliados" text-anchor="end" y="4px" x="-8px">Zula</text>
+</g>
+</g>
+<g class="intro" transform="translate(481,392)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="enemigos"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Celapulapu</text>
+<text class="color enemigos" text-anchor="end" y="4px" x="-8px">Celapulapu</text>
+</g>
+</g>
+<g class="intro" transform="translate(481,407)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="explorador"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Duarte Barbosa</text>
+<text class="color explorador" text-anchor="end" y="4px" x="-8px">Duarte Barbosa</text>
+</g>
+</g>
+<g class="intro" transform="translate(481,422)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="explorador"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">San Martín de Sevilla</text>
+<text class="color explorador" text-anchor="end" y="4px" x="-8px">San Martín de Sevilla</text>
+</g>
+</g>
+<g class="intro" transform="translate(481,437)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="explorador"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Pedro de Valderrama</text>
+<text class="color explorador" text-anchor="end" y="4px" x="-8px">Pedro de Valderrama</text>
+</g>
+</g>
+<g class="intro" transform="translate(629,457)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="aliados"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Abuleis</text>
+<text class="color aliados" text-anchor="end" y="4px" x="-8px">Abuleis</text>
+</g>
+</g>
+<g class="intro" transform="translate(629,472)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="aliados"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Calanao</text>
+<text class="color aliados" text-anchor="end" y="4px" x="-8px">Calanao</text>
+</g>
+</g>
+<g class="intro" transform="translate(629,487)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="explorador"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Francisco Serrano</text>
+<text class="color explorador" text-anchor="end" y="4px" x="-8px">Francisco Serrano</text>
+</g>
+</g>
+<g class="intro" transform="translate(629,502)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="aliados"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Iussu</text>
+<text class="color aliados" text-anchor="end" y="4px" x="-8px">Iussu</text>
+</g>
+</g>
+<g class="intro" transform="translate(629,517)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="aliados"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Manzor</text>
+<text class="color aliados" text-anchor="end" y="4px" x="-8px">Manzor</text>
+</g>
+</g>
+<g class="intro" transform="translate(629,532)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="explorador"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Pedro Alfonso de Lorosa</text>
+<text class="color explorador" text-anchor="end" y="4px" x="-8px">Pedro Alfonso de Lorosa</text>
+</g>
+</g>
+<g class="intro" transform="translate(629,547)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="aliados"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">pueblos de Pulaoan</text>
+<text class="color aliados" text-anchor="end" y="4px" x="-8px">pueblos de Pulaoan</text>
+</g>
+</g>
+<g class="intro" transform="translate(629,562)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="aliados"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">reina de Mindanao</text>
+<text class="color aliados" text-anchor="end" y="4px" x="-8px">reina de Mindanao</text>
+</g>
+</g>
+<g class="intro" transform="translate(629,577)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="aliados"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">rey de Bachian</text>
+<text class="color aliados" text-anchor="end" y="4px" x="-8px">rey de Bachian</text>
+</g>
+</g>
+<g class="intro" transform="translate(629,592)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="aliados"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Siripada</text>
+<text class="color aliados" text-anchor="end" y="4px" x="-8px">Siripada</text>
+</g>
+</g>
+<g class="intro" transform="translate(629,607)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="traidor"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">Tristán de Meneses</text>
+<text class="color traidor" text-anchor="end" y="4px" x="-8px">Tristán de Meneses</text>
+</g>
+</g>
+<g class="intro" transform="translate(778,643)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="enemigos"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">piloto de Molucas</text>
+<text class="color enemigos" text-anchor="end" y="4px" x="-8px">piloto de Molucas</text>
+</g>
+</g>
+<g class="intro" transform="translate(778,633)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="enemigos"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">moros de Borneo</text>
+<text class="color enemigos" text-anchor="end" y="4px" x="-8px">moros de Borneo</text>
+</g>
+</g>
+<g class="intro" transform="translate(778,618)">
+<rect y="-4" x="-4" width="4" height="8" rx="1" class="traidor"></rect>
+<g class="text">
+<text text-anchor="end" y="4px" x="-8px">colonos portugueses</text>
+<text class="color traidor" text-anchor="end" y="4px" x="-8px">colonos portugueses</text>
+</g>
+</g>
+</svg>

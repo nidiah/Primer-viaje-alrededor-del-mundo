@@ -7,46 +7,23 @@ featured-img: pages/fortanet-244.jpg
 img-source: Lista de tripulantes de la expedición de Magallanes (ed. Fortanet, Cortesía de Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin)
 ---
 
-<h2>Diagrama de interacciones</h2>
+<h2>Visualización de líneas narrativas de personajes</h2>
 
-<p>Los diagramas de narrativa pertenecena la familia de los diagramas de flujo y permiten ilustrar interacciones de personajes a lo largo del tiempo. Son una variante de los <a href="https://es.wikipedia.org/wiki/Diagrama_de_Sankey">diagramas de Sankey</a> basada en los <i>movie charts</i> de la tira <a href="https://xkcd.com/657/">xkcd</a>. En estos gráficos, el eje horizontal representa el tiempo mientras que los grupos verticales simbolizan copresencia de personajes en un mismo momento.</p>
+<p>Los diagramas de narrativa pertenecen a la familia de los diagramas de flujo y permiten ilustrar interacciones de personajes a lo largo del tiempo. Son una variante de los <a href="https://es.wikipedia.org/wiki/Diagrama_de_Sankey">diagramas de Sankey</a> basada en los <i>movie charts</i> de la tira <a href="https://xkcd.com/657/">xkcd</a>. En estos gráficos, el eje horizontal representa el tiempo mientras que los grupos verticales simbolizan copresencia de personajes en un mismo momento. Las líneas permiten seguir el devenir argumental de los personajes a lo largo de la narración. Cuando un personaje no figura en cierta escena pero reaparece más tarde en el relato, su línea argumental continúa pero no muestra un punto dentro del óvalo de la escena.</p>
 
-<p class="map-balloon py-3">Próximamente podrá encontrar en esta sección un diagrama que sintetizará los componentes narrativos de <i>Primer viaje alrededor del mundo</i>: las <a href="{{site.baseurl}}/toc">secciones</a> identificadas en el texto, los personajes que confluyen en dichas secciones y el origen de cada uno.</p>
+<p>El siguiente diagrama sintetiza componentes narrativos de <i>Primer viaje alrededor del mundo</i>: los óvalos representan las principales <a href="{{site.baseurl}}/toc">divisiones estructurales</a> del texto (dedicatoria y libros 1 a 4) y las líneas simbolizan el recorrido de los personajes en el relato. Los colores representan funciones narrativas: <span style="color: #8db600;">aliados comerciales o militares</span>, <span style="color: #0099ff;">personajes tomados cautivos o insurrectos</span>, <span style="color: #df2929;">traidores</span> y <b>exploradores</b> .
 
-<!--p>El siguiente diagrama sintetiza componentes narrativos de <i>Primer viaje alrededor del mundo</i>: las <a href="{{site.baseurl}}/toc">secciones</a> identificadas en el texto, los <a href="{{site.baseurl}}/nombres-destacados">personajes</a> que confluyen en dichas secciones y las facciones a las que pertenece cada uno (<span style="color: #df8429;">filiacion 1</span>, <span style="color: #3ca3a8;">filiacion 2</span>, <span style="color: #a83c6d;">filiacion 3</span>). Permite apreciar de un pantallazo el importante número de actores que intervienen en la historia y ... También deja en evidencia...</p>
+<p>Esta visualización permite apreciar de un pantallazo el importante número de actores que intervienen en la historia y sus diversos orígenes. También deja en evidencia la naturaleza breve de los contactos con los nativos, cuyas líneas argumentales por lo general no superan un óvalo, y el funesto destino de la mayoría de los integrantes de la expedición, cuyas líneas se cortan antes de alcanzar los episodios finales.</p>
 
-<div class="alert alert-warning py-2" role="alert">
-	Hacer click en la imagen para ampliar.
-	<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-		<span aria-hidden="true">×</span>
-	</button>
+
+<div class="px-3 py-2">
+<h3>Entramado narrativo de <i>Primer viaje alrededor del mundo</i></h3>
+
+{% include pigafetta-narrative.svg %}
 </div>
 
-<div class="py-3">
-<a class="image-link" href="#pop-up" style="cursor: zoom-in;">
-	
-</a>
-</div-->
+<p>Si observamos la línea correspondiente al primer capitán de la expedición, Fernando de Magallanes, podemos apreciar que comienza ya desde la dedicatoria pero se detiene en el tercer óvalo (libro II), momento en el que es asesinado. Por el contrario, la línea correspondiente al autor, Antonio Pigafetta, no comienza hasta el tercer óvalo (libro II), no se detiene en el cuarto óvalo (no hay menciones del autor en el libro III) y reaparece en el nodo final (libro IV, donde el autor enumera las cortes europeas en las que comparte su relato del viaje). 
 
-<!-- Modal -->
-<!--div id="pop-up" class="white-popup mfp-hide dragscroll" style="overflow: scroll; cursor: grab; cursor : -o-grab; cursor : -moz-grab; cursor : -webkit-grab;">
-	<div class="px-3">
-        <div class="px-3 py-3">
-		<h3>Entramado narrativo de <i>Primer viaje alrededor del mundo</i></h3>
-		<p class="py-2">Deslice hacia la derecha para avanzar en el relato. Cada personaje tiene una línea argumental. Los colores representan filiaciones: <span style="color: #df8429;">filiacion 1</span>, <span style="color: #3ca3a8;">filiacion 2</span>, <span style="color: #a83c6d;">filiacion 1</span>, <span style="color:#787878;">no identificado</span>. Los nodos correspoden a las secciones identificadas en el texto y los puntos indican aparición de un personaje en dicha sección.</p>
+<p>También es posible apreciar instantáneamente cómo confluyen gran cantidad de traidores en el segundo nodo (libro I, donde se hace referencia al motín de San Julián). Por último, la extensión y la complejidad de las interacciones del segundo libro (alianzas con numerosos líderes locales, traición del intérprete Enrique de Málacca, resistencia local a la conquista, contacto con el portugués expatriado Duarte Barbosa) queda de manifiesto en el gran nodo del centro del diagrama.</p>
 		
-
-
-		</div>
-	</div>
-</div>
-
-<p>Esta visualización fue elaborada usando un <a href="https://github.com/abcnews/d3-layout-narrative"> motor de diseño</a> para <a href="https://d3js.org/">d3</a>, una librería JavaScript para la creación de visualizaciones web.</p>
-
-<script type="text/javascript">
-	$(document).ready(function() {
-	  $('.image-link').magnificPopup({
-	  	type: 'inline',
-	  });
-	});
-</script-->
+<p>Esta visualización fue elaborada usando <a href="https://github.com/abcnews/d3-layout-narrative"> d3-layout-narrative</a>, un motor de diseño para <a href="https://d3js.org/">d3</a>, una librería JavaScript para la creación de visualizaciones web.</p>
