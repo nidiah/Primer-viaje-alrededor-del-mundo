@@ -1,0 +1,117 @@
+{
+    "characters": [
+        // nativos aliados, verde
+        {"id": "PDV", "name": "pueblo del Verzin", "affiliation": "nativos aliados"},
+        {"id": "PDP", "name": "pueblos de Pulaoan", "affiliation": "nativos aliados"},
+        {"id": "PDZ", "name": "pueblo de Zulu\u00e1n", "affiliation": "nativos aliados"},
+        {"id": "PDB", "name": "pueblo de Butu\u00e1n", "affiliation": "nativos aliados"},
+        {"id": "COL", "name": "Colambu", "affiliation": "nativos aliados"},
+        {"id": "BEN", "name": "Bendara", "affiliation": "nativos aliados"},
+        {"id": "SIA", "name": "Siain", "affiliation": "nativos aliados"},
+        {"id": "HAR", "name": "Hara Humamay", "affiliation": "nativos aliados"},
+        {"id": "ZUL", "name": "Zula", "affiliation": "nativos aliados"},
+        {"id": "IUS", "name": "Iussu", "affiliation": "nativos aliados"},
+        {"id": "ABU", "name": "Abuleis", "affiliation": "nativos aliados"},
+        {"id": "CAL", "name": "Calanao", "affiliation": "nativos aliados"},
+        {"id": "MAN", "name": "Manzor", "affiliation": "nativos aliados"},
+        {"id": "RDM", "name": "reina de Mindanao", "affiliation": "nativos aliados"},
+        {"id": "SIR", "name": "Siripada", "affiliation": "nativos aliados"},
+        {"id": "RDB", "name": "rey de Bachian", "affiliation": "nativos aliados"},
+        // nativos capturados, sometidos, rebelados, azul
+        {"id": "PAT", "name": "Patagones", "affiliation": "nativos enemigos"},
+        {"id": "PAB", "name": "Pablo", "affiliation": "nativos enemigos"},
+        {"id": "JUA", "name": "Juan", "affiliation": "nativos enemigos"},
+        {"id": "CEL", "name": "Celapulapu", "affiliation": "nativos enemigos"},
+        {"id": "HUM", "name": "Humab\u00f3n", "affiliation": "nativos enemigos"},
+        {"id": "PDM", "name": "piloto de Molucas", "affiliation": "nativos enemigos"},
+        {"id": "MDB", "name": "moros de Borneo", "affiliation": "nativos enemigos"},  
+        // exploradores, negro
+        {"id": "FDM", "name": "Fernando de Magallanes", "affiliation": "explorador"},
+        {"id": "PIG", "name": "Pigafetta", "affiliation": "explorador"},
+        {"id": "JCA", "name": "Juan Carvajo", "affiliation": "explorador"},
+        {"id": "DBA", "name": "Duarte Barbosa", "affiliation": "explorador"},
+        {"id": "JSE", "name": "Juan Serrano", "affiliation": "explorador"},    
+        {"id": "SMS", "name": "San Mart\u00edn de Sevilla", "affiliation": "explorador"},
+        {"id": "PVA", "name": "Pedro de Valderrama", "affiliation": "explorador"},
+        {"id": "FSE", "name": "Francisco Serrano", "affiliation": "explorador"},
+        {"id": "PAL", "name": "Pedro Alfonso de Lorosa", "affiliation": "explorador"},
+        // traidores, amenaza, rojo
+        {"id": "ACO", "name": "Antonio Coca", "affiliation": "traidor"},
+        {"id": "JDC", "name": "Juan de Cartagena", "affiliation": "traidor"},
+        {"id": "LDM", "name": "Luis de Mendoza", "affiliation": "traidor"},
+        {"id": "GDQ", "name": "Gaspar de Quesada", "affiliation": "traidor"},
+        {"id": "EGO", "name": "Esteban G\u00f3mez", "affiliation": "traidor"},
+        {"id": "PSR", "name": "Pero S\u00e1nchez de la Reina", "affiliation": "traidor"},
+        {"id": "EMA", "name": "Enrique de M\u00e1lacca", "affiliation": "traidor"},
+        {"id": "TDM", "name": "Trist\u00e1n de Meneses", "affiliation": "traidor"},
+        {"id": "CPO", "name": "colonos portugueses", "affiliation": "traidor"}
+        
+    ],
+    "scenes": [
+        [
+        "FDM"
+        ],
+        [
+        "FDM"
+        "PDV"
+        "JCA"
+        "JUA"
+        "PAT"
+        "JDC"
+        "LDM"
+        "ACO"
+        "GDQ"
+        "PSR"
+        "EGO"
+        "JSE"
+        "PAB"
+        ],
+        [
+        "PAB"
+        "FDM"
+        "PIG"
+        "PDZ"
+        "PDB"
+        "EMA"
+        "COL"
+        "SIA"
+        "HUM"
+        "BEN"
+        "HAR"
+        "ZUL"
+        "CEL"
+        "DBA"
+        "JSE"
+        "SMS"
+        "JCA"
+        "PVA"
+        ],
+        [
+        "ABU"
+        "CAL"
+        "COL"
+        "FSE"
+        "IUS"
+        "JCA"
+        "MAN"
+        "PAL"
+        "PDP"
+        "RDM"
+        "RDB"
+        "SIR"
+        "TDM"
+        ],
+        [
+        "PDM"
+        "MDB"
+        "PIG"
+        "CPO"
+        ]
+    ]
+}
+
+
+
+
+
+
