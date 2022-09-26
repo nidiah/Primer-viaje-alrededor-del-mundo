@@ -210,90 +210,90 @@ a:hover {
 
 
 /* Narrative chart */
-  text {
-    font-family: "ProximaNova",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-  }
+text {
+  font-family: "ProximaNova",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+}
 
-  rect {
-    fill: none;
-    stroke: #000;
-  }
+rect {
+  fill: none;
+  stroke: #000;
+}
 
-  rect.aliados {
-    fill: #8db600;
-    stroke: #8db600;
-  }
-  rect.enemigos {
-    fill: #0099ff;
-    stroke: #0099ff;
-  }
-  rect.traidor {
+rect.aliados {
+  fill: #8db600;
+  stroke: #8db600;
+}
+rect.enemigos {
+  fill: #0099ff;
+  stroke: #0099ff;
+}
+rect.traidor {
+  fill: #df2929;
+  stroke: #df2929;
+}
+rect.explorador {
+  fill: #000;
+  stroke: #000;
+}
+
+circle.aliados {
+  fill: #8db600;
+}
+circle.enemigos {
+  fill: #0099ff;
+}
+circle.traidor {
+  fill: #df2929;
+}
+circle.explorador {
+  fill: #000;
+}
+
+path.aliados {
+  fill: none;
+  stroke: #8db600;
+  stroke-width: 2;
+}
+
+path.enemigos {
+  fill: none;
+  stroke: #0099ff;
+  stroke-width: 2;
+}
+
+path.traidor {
+  fill: none;  
+  stroke: #df2929;
+  stroke-width: 2;
+}
+path.explorador {
+  fill: none;  
+  stroke: #000;
+  stroke-width: 2;
+}
+
+.intro text:first-child {
+  fill: #fff;
+    stroke: #f9f9f9;
+    stroke-width: 3;
+}
+
+.intro text+text {
+    fill: #333;
+}
+
+.intro text+text.traidor {
     fill: #df2929;
-    stroke: #df2929;
-  }
-  rect.explorador {
-    fill: #000;
-    stroke: #000;
-  }
+}
 
-  circle.aliados {
+.intro text+text.aliados {
     fill: #8db600;
-  }
-  circle.enemigos {
+}
+
+.intro text+text.enemigos {
     fill: #0099ff;
-  }
-  circle.traidor {
-    fill: #df2929;
-  }
-  circle.explorador {
-    fill: #000;
-  }
-
-  path.aliados {
-    fill: none;
-    stroke: #8db600;
-    stroke-width: 2;
-  }
-
-  path.enemigos {
-    fill: none;
-    stroke: #0099ff;
-    stroke-width: 2;
-  }
-
-  path.traidor {
-    fill: none;  
-    stroke: #df2929;
-    stroke-width: 2;
-  }
-  path.explorador {
-    fill: none;  
-    stroke: #000;
-    stroke-width: 2;
-  }
-
-  .intro text:first-child {
-    fill: #fff;
-      stroke: #f9f9f9;
-      stroke-width: 3;
-  }
-
-  .intro text+text {
-      fill: #333;
-  }
-
-  .intro text+text.traidor {
-      fill: #df2929;
-  }
-
-  .intro text+text.aliados {
-      fill: #8db600;
-  }
-
-  .intro text+text.enemigos {
-      fill: #0099ff;
-  }
+}
 
 
 
