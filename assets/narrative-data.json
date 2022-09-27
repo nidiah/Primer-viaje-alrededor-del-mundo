@@ -44,7 +44,8 @@
     ],
     "scenes": [
         [
-        "FDM"
+        "FDM",
+        "PIG",
         ],
         [
         "FDM",
