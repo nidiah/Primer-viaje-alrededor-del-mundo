@@ -11,29 +11,28 @@ img-source:
   <div class="mb-4">
     <h2>Cronología de eventos destacados</h2>
     <p>Al tratarse de un texto basado en un diario de viaje, <i>Primer viaje alrededor del mundo</i> presenta una estructura narrativa fuertemente determinada por la cronología. Abunda en referencias a fechas y otras expresiones temporales que permiten organizar una línea de tiempo con gran nivel de detalle.</p>
-    <p>A continuación, el público lector podrá encontrar una síntesis de los principales eventos de la expedición de Magallanes-Elcano ordenados cronológicamente. En la selección de hechos, privilegiamos los acontecimientos destacados en el texto de Pigafetta antes que la precisión o la exhaustividad histórica. Así, en la siguiente línea de tiempo se puede visualizar la minuciosidad del registro de la travesía por el paso interoceánico y de los primeros contactos con los pueblos de las Filipinas, en claro contraste con la sintética referencia a la rebelión de San Julián y el ritmo acelerado del viaje de regreso</p>
-    <p>Cada evento se presenta junto con el extracto de la obra que lo representa y el vínculo para acceder a la página correspondiente de <i>Primer viaje alrededor del mundo</i>.</p>
+    <p>A continuación, el público lector podrá encontrar una síntesis de los principales eventos de la expedición de Magallanes-Elcano ordenados cronológicamente. En la selección de hechos, privilegiamos los acontecimientos destacados en el texto de Pigafetta antes que la precisión o la exhaustividad histórica. Así, en la siguiente línea de tiempo se puede visualizar fácilemente el claro contraste entre la minuciosidad del registro de la travesía por el paso interoceánico y de los primeros contactos con los pueblos de las Filipinas, frente a la sintética referencia a la rebelión de San Julián y el ritmo acelerado del viaje de regreso. Esto se debe a que el autor busca resaltar cómo la expedición cumplió con su objetivo principal de descubrir la vía navegable entre el Atlántico y el Pacífico y alcanzó buenos logros comerciales con los pueblos del Pacífico insular y disimular los contratiempos de la sublevación y la avería de una de las naves.</p>
+    <p>Cada evento se muestra junto con el extracto de la obra que lo representa y un hipervínculo para acceder a la página correspondiente de <i>Primer viaje alrededor del mundo</i>. El ícono <span><img src="{{site.baseurl}}/assets/img/icons/favicon-32x32.png" /></span> indica hechos destacados en la narración.</p>
   </div>
 
   <div class="timeline" data-vertical-start-position="right" data-vertical-trigger="150px">
-  <div class="timeline__wrap">
-    <div class="timeline__items">
+    <div class="timeline__wrap">
+      <div class="timeline__items">
       {% for row in site.data.events-for-timeline %}
-      <div class="timeline__item">
-        <div class="timeline__content">
-            <h3>{{ row.DISPLAY_DATE }}</h4>
-            <h5 class="uppercase">{{ row.EVENT }}</h5>
+        <div class="timeline__item">
+          <div class="timeline__content">
+            <h3>{{ row.DISPLAY_DATE }} {% if row.IMPORTANT == "1"%}<span><img src="{{site.baseurl}}/assets/img/icons/favicon-32x32.png" />{% endif %}</span></h3> 
+            <h5 class="uppercase" style="color: #841212;">{{ row.EVENT }}</h5>
             <p class="italic">(...) {{ row.EXCERPT }}</p>
-            <a class="no-underline" style="color: #841212;" href="{{site.baseurl}}/relacion/{{ row.PAGE }}">Leer más</a>
-            <!--div>
-              <img src="{{row.IMAGE}}"/>
-            </div-->
-            
+            <a class="no-underline" style="color: #841212; font-size: x-small;" href="{{site.baseurl}}/relacion/{{ row.PAGE }}">Leer más</a>
+          </div>
         </div>
-      </div>
       {% endfor %}
+      </div>
     </div>
   </div>
+  <div class="mt-4">
+    <p>Esta visualización fue elaborada usando <a href="https://squarechip.github.io/timeline/" target="_blank">Squarechip timeline</a> una librería JavaScript de código abierto.</p>
   </div>
 
   <script type="text/javascript">
