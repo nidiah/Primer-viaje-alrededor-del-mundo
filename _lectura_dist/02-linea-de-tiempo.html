@@ -8,14 +8,40 @@ img-source:
 ---
 
 <div class="clearfix prose mx-auto px-2"> 
-  <h2>Cronología de eventos destacados</h2>
+  <div class="mb-4">
+    <h2>Cronología de eventos destacados</h2>
+    <p>Al tratarse de un texto basado en un diario de viaje, <i>Primer viaje alrededor del mundo</i> presenta una estructura narrativa fuertemente determinada por la cronología. Abunda en referencias a fechas y otras expresiones temporales que permiten organizar una línea de tiempo con gran nivel de detalle.</p>
+    <p>A continuación, el público lector podrá encontrar una síntesis de los principales eventos de la expedición de Magallanes-Elcano ordenados cronológicamente. En la selección de hechos, privilegiamos los acontecimientos destacados en el texto de Pigafetta antes que la precisión o la exhaustividad histórica. Así, en la siguiente línea de tiempo se puede visualizar la minuciosidad del registro de la travesía por el paso interoceánico y de los primeros contactos con los pueblos de las Filipinas, en claro contraste con la sintética referencia a la rebelión de San Julián y el ritmo acelerado del viaje de regreso</p>
+    <p>Cada evento se presenta junto con el extracto de la obra que lo representa y el vínculo para acceder a la página correspondiente de <i>Primer viaje alrededor del mundo</i>.</p>
+  </div>
 
-  <p class="map-balloon py-3">Próximamente podrá encontrar en esta sección una síntesis de los principales eventos de la expedición de Magallanes-Elcano señalados por Pigafetta en <i>Primer viaje alrededor del mundo</i>, ordenados cronológicamente y vinculados con extractos de la obra.</p>
+  <div class="timeline" data-vertical-start-position="right" data-vertical-trigger="150px">
+  <div class="timeline__wrap">
+    <div class="timeline__items">
+      {% for row in site.data.events-for-timeline %}
+      <div class="timeline__item">
+        <div class="timeline__content">
+            <h3>{{ row.DISPLAY_DATE }}</h4>
+            <h5 class="uppercase">{{ row.EVENT }}</h5>
+            <p class="italic">(...) {{ row.EXCERPT }}</p>
+            <a class="no-underline" style="color: #841212;" href="{{site.baseurl}}/relacion/{{ row.PAGE }}">Leer más</a>
+            <!--div>
+              <img src="{{row.IMAGE}}"/>
+            </div-->
+            
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  </div>
 
-  <!--p>En la siguiente línea de tiempo se puede visualizar....</p>
-
-  <p>Haga click sobre...</p-->
-
+  <script type="text/javascript">
+    timeline(document.querySelectorAll('.timeline'), {
+      verticalStartPosition: 'right',
+      verticalTrigger: '150px'
+    });
+  </script>
 </div>
 
 
