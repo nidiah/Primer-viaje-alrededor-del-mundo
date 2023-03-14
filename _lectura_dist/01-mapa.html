@@ -9,14 +9,31 @@ img-source: Mapa del recorrido de la expedición de Magallanes entre 1519-1522 s
 
 <h2>Mapa de la expedición</h2>
 
-<!-- Intro sobre importancia de mapas para este tipo de obra -->
 
-<p>En el siguiente mapa interactivo se pueden visualizar los principales puntos visitados por la expedición de Magallanes-Elcano mencionados en el texto de <i>Primer viaje alrededor del mundo</i>. </p>
 
-<p>Haga click sobre los marcadores para ver el nombre del lugar y el fragmento del texto en el que se nombra el lugar por primera vez. Se usan las denominaciones usadas por Pigafetta y entre paréntesis los nombres actuales.</p>
+<div class="mb-4">
+<p>Al tratarse de un diario de viaje, <i>Primer viaje alrededor del mundo</i> es un texto fuertemente marcado por indicaciones geográficas. Es posible encontrar referencias a alrededor de 300 lugares distintos, la mitad de los cuales han sido georreferenciados. Los lugares no identificados responden a diversos motivos: la localización proporcionada por Pigafetta no se corresponde con la realidad (ver el caso de <a href="{{site.baseurl}}/relacion/pg_0020.html?q=cipangu">Cipangu</a>), las referencias dadas en distintas partes del texto son contradictorias (ver el caso de <a href="{{site.baseurl}}/relacion/pg_0083.html?q=sumdit y pradit">Sumdit Pradit</a>) o simplemente se trata de lugares ficticios (ver el caso de <a href="{{site.baseurl}}/relacion/pg_0083.html?q=occoloro">Occoloro</a>, una isla de amazonas).</p>
 
+<!-- 
+~10 lugares en continente americano 
+~10 lugares en Europa (la mitad son parte de la expedición, el resto referidos)
+~70 lugares pacifico insular (Islas Infortunadas, Zubu, Timor, Tadore, etc.)
+~40 lugares en sudeste asiático continental (China, Goa, Siam, etc)
+~10 otros (Polo sur, Polo ártico, Cabo de Buena Esperanza, )
+-->
+
+<p>En el siguiente mapa interactivo se pueden visualizar los principales puntos visitados por la expedición de Magallanes-Elcano mencionados en el texto de <i>Primer viaje alrededor del mundo</i>. Cada lugar es nombrado con las denominación usada por Pigafetta y, en el caso de difieran, ofrecemos entre paréntesis el nombres actual, por ejemplo <b>Estrecho Patagónico (Estrecho de Magallanes)</b>.</p>
+
+<p>Haga click sobre los marcadores para ver el nombre del lugar y el fragmento del texto en el que se lo menciona por primera vez. También podrá acceder a la página correspondiente en el texto.</p>
+</div>
   
 <div id="map" class="map leaflet-container mb-3" style="height: 500px; position:relative;"></div>
+
+<div class="mt-4">
+  <p>Esta visualización fue elaborada usando <a href="https://leafletjs.com/" target="_blank">Leaflet</a> una librería JavaScript de código abierto para la creación de mapas interactivos.</p>
+
+  <!-- descargar dataset placenames -->
+</div>
 
 <script src="{{ site.baseurl }}/assets/js/expeditionPlaces.js" type="text/javascript"></script> 
 <script>
@@ -27,84 +44,91 @@ img-source: Mapa del recorrido de la expedición de Magallanes entre 1519-1522 s
       maxZoom: 18,
       tileSize: 512,
       zoomOffset: -1,
-      id: 'mapbox/streets-v11',
+      id: 'hdcaicyt/clf5y2erb000001jzf1r3kg2u',
       accessToken: 'pk.eyJ1IjoiaGRjYWljeXQiLCJhIjoiY2s5MDc0NGQ3MjBudTNtbWh1NzFmM2VjZyJ9.MuGwJ2d1CmhzIg4M-TQJWA'
   }).addTo(map);
 
-  // var places = pigafettaPlaces;
+  var myIcon = new L.Icon({
+  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-orange.png',
+  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41]
+});
+
+  // var places = expeditionPlaces;
   // for (let place in places) {
-  //   var marker = L.marker(places[place]).addTo(map);
-  //   marker.bindPopup(`<b>${place}</b><br>`);
+  //   var marker = L.marker(places[place], {opacity: 0.7, icon: myIcon}).addTo(map);
+  //   marker.bindPopup(`<b>${place}</b><br>${exerpt}... (<a href="{{site.baseurl}}/relacion/${pagenum}.html?q=${place.toLower()}"><i>leer más</i></a>)`);
   // };
 
-  var marker = L.marker([37.38283, 354.02683]).addTo(map);
-    marker.bindPopup(`<b>Sevilla</b><br>El lunes 10 de agosto, día de San Lorenzo (...) nos aprestamos de buena mañana a salir del puerto de Sevilla, y con disparo de muchas salvas... <a href="{{site.baseurl}}/relacion/pg_0003.html?q=sevilla">(<i>leer más</i>)</a>`);
 
-  var marker = L.marker([28.09973, 344.58657]).addTo(map);
+  var marker = L.marker([37.38283, 354.02683], {opacity: 0.7, icon: myIcon}).addTo(map);
+    marker.bindPopup(`<b>Sevilla</b><br>El lunes 10 de agosto, día de San Lorenzo (...) nos aprestamos de buena mañana a salir del puerto de Sevilla, y con disparo de muchas salvas... (<a href="{{site.baseurl}}/relacion/pg_0003.html?q=sevilla"><i>leer más</i></a>)`);
+
+  var marker = L.marker([28.09973, 344.58657], {opacity: 0.7, icon: myIcon}).addTo(map);
     marker.bindPopup(`<b>Canarias</b><br>El 26, arribamos a una isla de la Gran Canaria que se llama Tenerife, a 28 grados de latitud, para repostar carne, agua y leña. Anclamos allí tres días y medio... <a href="{{site.baseurl}}/relacion/pg_0004.html?q=canarias">(<i>leer más</i>)</a>`);
 
-  var marker = L.marker([15.9322569165, 336.0421236519]).addTo(map);
+  var marker = L.marker([15.9322569165, 336.0421236519], {opacity: 0.7, icon: myIcon}).addTo(map);
     marker.bindPopup(`<b>Cabo Verde</b><br>El lunes 3 de octubre, largamos velas en la dirección austral, pasando Cabo Verde y sus islas; y así navegamos muchas jornadas frente a la costa de la Guinea o Etiopía... <a href="{{site.baseurl}}/relacion/pg_0005.html?q=cabo verde">(<i>leer más</i>)</a>`);
 
-  var marker = L.marker([-8.3298520641, 322.006238108]).addTo(map);
+  var marker = L.marker([-8.3298520641, 322.006238108], {opacity: 0.7, icon: myIcon}).addTo(map);
     marker.bindPopup(`<b>Tierra del Verzin (Brasil)</b><br>...se perdió la referencia de la estrella polar; y, así, navegose con rumbo Sur-Suroeste hasta una tierra que se llama la Tierra del Verzin, donde hicimos gran acopio de gallinas, patatas, piñas muy dulces... <a href="{{site.baseurl}}/relacion/pg_0006.html?q=tierra del verzin">(<i>leer más</i>)</a>`);
 
-  var marker = L.marker([-32.71667, 304.4]).addTo(map);
+  var marker = L.marker([-32.71667, 304.4], {opacity: 0.7, icon: myIcon}).addTo(map);
     marker.bindPopup(`<b>Río de agua dulce (Río de la Plata)</b><br>Llegamos hasta el grado 34 más un tercio del Polo Antártico, encontrando allá, junto a un río de agua dulce, a unos hombres que se llaman "caníbales" y comen la carne humana.... <a href="{{site.baseurl}}/relacion/pg_0010.html?q=rio de la plata">(<i>leer más</i>)</a>`);
 
-  var marker = L.marker([-49.30554, 292.27257]).addTo(map);
+  var marker = L.marker([-49.30554, 292.27257], {opacity: 0.7, icon: myIcon}).addTo(map);
     marker.bindPopup(`<b>Puerto de San Julián</b><br>Echándose encima el frío, los barcos descubrieron un buen puerto para invernar. Permanecimos en él dos meses, sin ver a persona alguna. Un día, de pronto, descubrimos a un hombre de gigastesca estatura... <a href="{{site.baseurl}}/relacion/pg_0012.html?q=puerto">(<i>leer más</i>)</a>`);          
-  var marker = L.marker([-52.33413, 291.64603999999997]).addTo(map);
+  var marker = L.marker([-52.33413, 291.64603999999997], {opacity: 0.7, icon: myIcon}).addTo(map);
     marker.bindPopup(`<b>Cabo de las Once mil Vírgenes (Cabo Vírgenes)</b><br>...a los 52 grados del mismo rumbo, encontramos en el día de las Once mil Vírgenes, un estrecho, cuyo cabo denominamos "Cabo de las Once mil Vírgenes", por un milagro grandísimo. Ese estrecho tiene... <a href="{{site.baseurl}}/relacion/pg_0015.html?q=cabo de las once mil vírgenes">(<i>leer más</i>)</a>`);
 
-  var marker = L.marker([-53.9282, 288.89786]).addTo(map);
+  var marker = L.marker([-53.9282, 288.89786], {opacity: 0.7, icon: myIcon}).addTo(map);
     marker.bindPopup(`<b>Estrecho Patagónico (Estrecho de Magallanes)</b><br>Llamamos a ese estrecho el "Estrecho Patagónico"; en el cual, se encuentran, cada media legua, puertos segurísimos, inmejorables aguas, leña, peces, sardinas, mejillones y apio, hierba dulce (...) No creo haya en el mundo estrecho más hermoso ni mejor... <a href="{{site.baseurl}}/relacion/pg_0018.html?q=estrecho patagónico">(<i>leer más</i>)</a>`);
 
-  var marker = L.marker([-52.73049, 285.27199]).addTo(map);
+  var marker = L.marker([-52.73049, 285.27199], {opacity: 0.7, icon: myIcon}).addTo(map);
     marker.bindPopup(`<b>Cabo Deseado</b><br>El capitán general lloró de alegría, designando a aquél "Cabo Deseado", porque lo deseamos todos tanto tiempo. Volvimos atrás en busca de las otras dos naves, pero no encontramos sino a la Concepción... <a href="{{site.baseurl}}/relacion/pg_0017.html?q=cabo deseado">(<i>leer más</i>)</a>`);
 
-  var marker = L.marker([15.214, 145.7595]).addTo(map);
+  var marker = L.marker([15.214, 145.7595], {opacity: 0.7, icon: myIcon}).addTo(map);
     marker.bindPopup(`<b>Islas Infortunadas</b><br>...recorrimos cerca de cuatro mil leguas del Mar Pacífico, en una sola derrota (bien pacífico, en verdad, pues en tanto tiempo no conocimos ni una borrasca); sin ver tierra alguna, sino dos islotes deshabitados, en los que nada se encontró fuera de pájaros y árboles... <a href="{{site.baseurl}}/relacion/pg_0020.html?q=Islas Infortunadas">(<i>leer más</i>)</a>`);  
 
-  var marker = L.marker([15.8588611272, 145.6148514218]).addTo(map);
+  var marker = L.marker([15.8588611272, 145.6148514218], {opacity: 0.7, icon: myIcon}).addTo(map);
     marker.bindPopup(`<b>Islas de los Ladrones (islas Marianas)</b><br>...nos robaron el esquife amarrado a la popa de la nave capitana. Furioso por dicha fechoría, bajó a tierra el capitán general con cuarenta ballesteros; incendiaron cuarenta o cincuenta casas y muchas canoas, mataron a siete hombres y se recuperó el esquife.... <a href="{{site.baseurl}}/relacion/pg_0021.html?q=islas de los ladrones">(<i>leer más</i>)</a>`);
 
-  var marker = L.marker([10.73861, 125.71806]).addTo(map);
+  var marker = L.marker([10.73861, 125.71806], {opacity: 0.7, icon: myIcon}).addTo(map);
     marker.bindPopup(`<b>Humunu (Homonhon)</b><br>Quiso el capitán general, desembarcar en otra [isla], deshabitada y detrás de aquélla -por considerarlo más seguro--: había que cargar agua y observar. Hizo que levantasen en la orilla dos tiendas para los enfermos y que les sacrificasen un cochino.... <a href="{{site.baseurl}}/relacion/pg_0023.html?q=humunu">(<i>leer más</i>)</a>`);    
 
-  var marker = L.marker([9.931, 125.0744]).addTo(map);
+  var marker = L.marker([9.931, 125.0744], {opacity: 0.7, icon: myIcon}).addTo(map);
     marker.bindPopup(`<b>Mazana (Limasawa)</b><br>Por haber visto fuego la noche anterior en una isla, en la mañana del jueves 28 de marzo, se ancló frente a ésta y observamos que una barca reducida, con ocho hombres de tripulación, acercábase a la carabela capitana. Un esclavo del capitán general... <a href="{{site.baseurl}}/relacion/pg_0027.html?q=limasawa">(<i>leer más</i>)</a>`);
 
-  var marker = L.marker([10.31672, 123.89071]).addTo(map);
+  var marker = L.marker([10.31672, 123.89071], {opacity: 0.7, icon: myIcon}).addTo(map);
     marker.bindPopup(`<b>Zubu (Cebú)</b><br>Al reunírsenos, se maravillaba de nuestra velocidad. Invitole el capitán general a que subiese en su nao con algunos de sus jerarcas, y le plugo sobremanera. Así arribamos a Zubu, que está a 15 leguas desde Gatighan.... <a href="{{site.baseurl}}/relacion/pg_0032.html?q=zubu">(<i>leer más</i>)</a>`);
 
-  var marker = L.marker([10.29194, 123.96806]).addTo(map);
+  var marker = L.marker([10.29194, 123.96806], {opacity: 0.7, icon: myIcon}).addTo(map);
     marker.bindPopup(`<b>Matan (Mactán)</b><br>Todos ellos nos obedecían y nos daban víveres y tributos. Cerca de la isla de Zubu, por otra parte, había otra, Matan, en cuyo puerto precisamente, nos resguardábamos. La villa que incendiamos estaba aquí y su nombre era Bulaia... <a href="{{site.baseurl}}/relacion/pg_0041.html?q=matan">(<i>leer más</i>)</a>`);
 
-  var marker = L.marker([1.0, 114.0]).addTo(map);
+  var marker = L.marker([1.0, 114.0], {opacity: 0.7, icon: myIcon}).addTo(map);
     marker.bindPopup(`<b>Burne (Brunei)</b><br>A diez leguas de esa isla por el garbino, nos enfrentamos con otra, costeando la cual teníamos la impresión de ascender. Penetrando en su puerto, apareciósenos el Cuerpo Santo, después de mucho de no verle.... <a href="{{site.baseurl}}/relacion/pg_0051.html?q=burne">(<i>leer más</i>)</a>`);  
 
-  var marker = L.marker([9.5, 118.5]).addTo(map);
+  var marker = L.marker([9.5, 118.5], {opacity: 0.7, icon: myIcon}).addTo(map);
     marker.bindPopup(`<b>Pulaoan (Palawan)</b><br>...en el cabo de la de Pulaoan, nos tropezamos con un junco que venía de Burne, en el que viajaba el gobernador de esa Pulaoan que menciono. Advertímosle por gestos que arriara velas; pero negándose él, detuvímoslo contra su voluntad y lo saqueamos... <a href="{{site.baseurl}}/relacion/pg_0059.html?q=Pulaoan">(<i>leer más</i>)</a>`);    
 
-  var marker = L.marker([3.6074, 125.50721]).addTo(map);
+  var marker = L.marker([3.6074, 125.50721], {opacity: 0.7, icon: myIcon}).addTo(map);
       marker.bindPopup(`<b>Tadore (Tidore)</b><br>El viernes 8 de noviembre de 1521, tres horas antes de tramontar el sol, arribamos al puerto de una isla llamada Tadore, y, anclando en un fondal de veinte brazas, hicimos una salva completa. Al día siguiente, vino el rey ... <a href="{{site.baseurl}}/relacion/pg_0062.html?q=tadore">(<i>leer más</i>)</a>`); 
 
-  var marker = L.marker([1.06504, 127.46786]).addTo(map);
+  var marker = L.marker([1.06504, 127.46786], {opacity: 0.7, icon: myIcon}).addTo(map);
       marker.bindPopup(`<b>Giailolo (Jailolo)</b><br>El sábado, el rey moro de Giailolo acercósenos con muchos praos; le dimos un sayo de damasco verde, dos brazas de paño rojo, espejos, tijeras, cuchillos, peines y dos vasos dorados... <a href="{{site.baseurl}}/relacion/pg_0069.html?q=giailolo">(<i>leer más</i>)</a>`);     
 
-  var marker = L.marker( [-3.3844, 119.8636]).addTo(map); // nombre actual
+  var marker = L.marker( [-3.3844, 119.8636], {opacity: 0.7, icon: myIcon}).addTo(map); // nombre actual
       marker.bindPopup(`<b>Malua</b><br>Adelantándonos al temporal, buscamos refugio en una isla muy alta (...) Quince días gastamos allá, para reparar las bordas de nuestra nave (...) Nos apoderamos aquí de un hombre, para que nos condujese a alguna isla donde podernos avituallar... <a href="{{site.baseurl}}/relacion/pg_0078.html?q=malua">(<i>leer más</i>)</a>`);  
 
-var marker = L.marker( [-3.3844, 119.8636]).addTo(map); // nombre actual
+var marker = L.marker( [-3.3844, 119.8636], {opacity: 0.7, icon: myIcon}).addTo(map); // nombre actual
       marker.bindPopup(`<b>Timor</b><br>El sándalo se corta en determinadas fases de la luna; de otra forma, no sería bueno. Las mercancías que interesan a cambio de él son: paño rojo, tela, hachas, hierro y clavos. La isla está habitada, y es muy larga... <a href="{{site.baseurl}}/relacion/pg_0079.html?q=timor">(<i>leer más</i>)</a>`);  
 
-    var marker = L.marker([-34.35027, 18.47909]).addTo(map);
+    var marker = L.marker([-34.35027, 378.47909], {opacity: 0.7, icon: myIcon}).addTo(map);
     marker.bindPopup(`<b>Cabo de Buena Esperanza</b><br>Antes de doblar el cabo de Buena Esperanza, permanecimos nueve semanas frente a él, arriadas las velas, por el viento occidental y mistral en la proa, y tempestades pavorosas... <a href="{{site.baseurl}}/relacion/pg_0085.html?q=cabo de Buena Esperanza">(<i>leer más</i>)</a>`);    
 
 </script>
-
-
-
 
 

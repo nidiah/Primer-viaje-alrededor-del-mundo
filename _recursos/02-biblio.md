@@ -8,7 +8,7 @@ featured-img: pages/fortanet-1899-portada.jpg
 img-source: Portada de la edición de Walls y Merino (cortesía de Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin)
 ---
 
-A continuación, ofrecemos un breve recuento de manuscritos, primeras ediciones y otros recursos documentales relacionados con la relación de Antonio Pigafetta donde privilegiamos la posibilidad de consulta en línea.
+A continuación, ofrecemos una bibliografía comentada para continuar investigando sobre el texto de Antonio Pigafetta. Para nuestra selección privilagiamos el acceso a fuentes primarias (digitalizaciones de las distintas copias manuscritas existentes y primeras ediciones en español, italiano y francés). También presentamos una breve selección de textos críticos y otros recursos documentales disponibles en línea.
 
 
 ## Manuscritos
@@ -55,11 +55,13 @@ A continuación, ofrecemos un breve recuento de manuscritos, primeras ediciones 
 
 ## Textos críticos
 
-* BERNARD, C. & CASTRO, X. (2007). Prefacio a _Le voyage de Magellan (1519-1522). La relation d’Antonio Pigafetta et autres témoignages_. CASTRO, Xavier de; HAMON, Jocelyne y THOMAZ, Luis Filipe (eds.). París: Chandeigne.
+* BERNARD, C. & CASTRO, X. (2007). Prefacio a _Le voyage de Magellan (1519-1522). La relation d’Antonio Pigafetta et autres témoignages_. CASTRO, Xavier de; HAMON, Jocelyne y THOMAZ, Luis Filipe (eds.). Chandeigne.
 
-* BORAO MATEO, J. E. (2019). Las crónicas de los viajes de Zheng He y de Magallanes-Elcano. En Actas Congreso Internacional de Historia "Primus circumdedisti me". Madrid: Ministerio de Defensa. pp. 51-66. Disponible en [http://vcentenario.es/wp-content/uploads/2019/07/actas_del_congreso_internacional_v_centenario_-2-3.pdf](http://vcentenario.es/wp-content/uploads/2019/07/actas_del_congreso_internacional_v_centenario_-2-3.pdf).
+* BORAO MATEO, J. E. (2019). Las crónicas de los viajes de Zheng He y de Magallanes-Elcano. En Actas Congreso Internacional de Historia "Primus circumdedisti me" (p. 51-66). Ministerio de Defensa. [http://vcentenario.es/wp-content/uploads/2019/07/actas_del_congreso_internacional_v_centenario_-2-3.pdf](http://vcentenario.es/wp-content/uploads/2019/07/actas_del_congreso_internacional_v_centenario_-2-3.pdf).
 
-* VARELA, C. (2019). Los cronistas del viaje de Magallanes y Elcano. En Actas Congreso Internacional de Historia "Primus circumdedisti me". Madrid: Ministerio de Defensa. pp. 259-270. Disponible en [http://vcentenario.es/wp-content/uploads/2019/07/actas_del_congreso_internacional_v_centenario_-2-3.pdf](http://vcentenario.es/wp-content/uploads/2019/07/actas_del_congreso_internacional_v_centenario_-2-3.pdf).
+* VAGNON, E. (2010) De la Grèce antique au voyage de Magellan. Les modèles humanistes d’Antonio Pigafetta et de Maximilianus Transylvanus. Médiévales, 58, 99–111. [https://doi.org/10.4000/medievales.5913](https://doi.org/10.4000/medievales.5913) 
+
+* VARELA, C. (2019). Los cronistas del viaje de Magallanes y Elcano. En Actas Congreso Internacional de Historia "Primus circumdedisti me" (p. 259-270). Ministerio de Defensa. [http://vcentenario.es/wp-content/uploads/2019/07/actas_del_congreso_internacional_v_centenario_-2-3.pdf](http://vcentenario.es/wp-content/uploads/2019/07/actas_del_congreso_internacional_v_centenario_-2-3.pdf).
 
 
 ## Mapas

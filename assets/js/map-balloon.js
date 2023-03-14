@@ -87,7 +87,7 @@
                 maxZoom: 18,
                 tileSize: 512,
                 zoomOffset: -1,
-                id: 'mapbox/streets-v11',
+                id: 'mapbox/navigation-night-v1',
                 accessToken: 'pk.eyJ1IjoiaGRjYWljeXQiLCJhIjoiY2s5MDc0NGQ3MjBudTNtbWh1NzFmM2VjZyJ9.MuGwJ2d1CmhzIg4M-TQJWA'
             }).addTo(map);
             var marker = L.marker(coordenadas).addTo(map);
