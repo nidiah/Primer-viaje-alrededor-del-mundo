@@ -67,8 +67,8 @@ img-source: Plano del orbe de Artaus
     <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
       <a href="{{ site.baseurl }}/textometria">
         <figure class="post-card__placehold">
-          <img src="{{ site.url }}{{ site.baseurl }}/assets/img/pages/grafo-cooc-verb-sust-pigafetta.png" alt="gráficos"/>
-          <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/img/pages/grafo-cooc-verb-sust-pigafetta.png" alt="gráficos"/></noscript>
+          <img src="{{ site.url }}{{ site.baseurl }}/assets/img/pages/textometria.png" alt="gráficos"/>
+          <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/img/pages/textometria.png" alt="gráficos"/></noscript>
         </figure>
       </a>
       <a class="post-card__inner" href="{{ site.baseurl }}/textometria">
