@@ -94,22 +94,22 @@ code {
     margin-bottom: 0.5em;
   }
 
-  // Markdown tables
-  table {
-    border-collapse: collapse;
-    display: block;
-    width: 100%;
-    margin-bottom: 1.5em;
-    overflow: auto;
-    // For Firefox to horizontally scroll wider tables.
-    word-break: normal;
-    word-break: keep-all;
+// Markdown tables
+table {
+  border-collapse: collapse;
+  display: block;
+  width: 100%;
+  margin-bottom: 1.5em;
+  overflow: auto;
+  // For Firefox to horizontally scroll wider tables.
+  word-break: normal;
+  word-break: keep-all;
 
-    .table {
+  .table {
   width: 100%;
   max-width: 100%;
   margin-bottom: 20px;
-}
+  }
     th {
       font-weight: bold;
       text-align: left;
@@ -131,7 +131,29 @@ code {
       border-bottom: 2px solid $color-body-text;
     }
   }
-
-
-
 }
+
+.iframe-container {
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+}
+
+.iframe-container iframe, .iframe-container object, .iframe-container embed {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:90%;
+}
+
+.if-figcaption {
+  position: absolute;
+  bottom: 0;
+  height: 10%;
+  width: 100%;
+}
+
+
