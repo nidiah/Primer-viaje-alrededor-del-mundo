@@ -80,4 +80,22 @@ img-source: Plano del orbe de Artaus
         </div>
       </a>
     </div>
+<!-- PERSONAJES -->
+    <div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <a href="{{ site.baseurl }}/personajes">
+        <figure class="post-card__placehold">
+          <img src="{{ site.url }}{{ site.baseurl }}/assets/img/pages/personajes.jpg" alt="personajes"/>
+          <noscript><img src="" alt="personajes"/></noscript>
+        </figure>
+      </a>
+      <a class="post-card__inner" href="{{ site.baseurl }}/personajes">
+        <div class="post-card__header">
+          <h3>Personajes destacados</h3>
+            <span class="post-card__meta">
+              <p>Principales protagonistas del relato</p>
+            </span>
+        </div>
+      </a>
+    </div>
+
 </div>
