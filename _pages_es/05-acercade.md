@@ -31,6 +31,8 @@ Citar esta edición como:
 
 <p style="font-size: 17px;">Hernández, Nidia (ed). (2022). Antonio Pigafetta. <i>Primer viaje alrededor del mundo</i>. <a href="{{ site.baseurl }}/">{{ site.url }}{{site.baseurl}}</a>, [Consultado el {{ site.time | date: '%Y-%m-%d' }}].</p>
 
+Repositorio de datos: [![DOI](https://zenodo.org/badge/497790898.svg)](https://zenodo.org/badge/latestdoi/497790898)
+
 Se comparte a través de la licencia  Creative Commons 4.0 (CC BY 4.0).
 
 <div class="py-3">
