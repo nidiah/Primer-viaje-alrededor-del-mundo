@@ -8,18 +8,20 @@ type: texto
 img: pg_0010
 ---
 
-<div class="row">
+<div>
   <h5 class="uppercase">{{page.book}}</h5>
   <h3>{{page.section}}</h3>
   <h2>{{page.subsection}}</h2>
-  <div class="col-left">
+</div>
+<div class="row">
+  <div class="col-8 sm-width-full">
     <p>Continuando después nuestro camino, llegamos hasta el <a id="0" class="map-balloon" href="javascript:;"><button class="balloon" data-balloon-pos="up" data-balloon-length="large" data-balloon="Pigafetta usa Ártico y Antártico para refirse a Norte y Sur">grado 34, más un tercio del Polo Antártico</button></a>, encontrando allá, junto a un río de agua dulce, a unos hombres que se llaman &quot;<button class="balloon" data-balloon-pos="up" data-balloon-length="large" data-balloon="Se trata de los charrúas, sociedad de cazadores-recolectores que habitaba el actual territorio de Uruguay.">caníbales</button>&quot; y comen la carne humana.</p>
     <p>Acercósenos a la nave capitana uno de <span class="bold">estatura casi como de gigante</span> para garantizar a los otros. Tenía un vozarrón de toro. Mientras éste permaneció en la nave, los otros recogieron sus enseres y los adentraron más en la tierra, por miedo a nosotros. Viendo lo cual, saltamos un centenar de hombres a tierra en busca de entendernos algo, trabar conversación; por lo menos retener a alguno. Pero huían, huían con tan largos pasos, que ni con todo nuestro correr podíamos alcanzarlos. Hay en este río <button class="balloon" data-balloon-pos="up" data-balloon-length="large" data-balloon="El río de la Plata es altamente sedimentoso y presenta bancos de arena y otros sedimentos en constante proceso de crecimiento (el banco Oyarvide, por ejemplo, crece 1,1 km. anuales aproximadamente) por lo que las islas mecionadas por Pigafetta son difíciles de identificar.">siete islas</button>. En la mayor de ellas encuéntranse <span class="bold">piedras preciosas</span>; se llama <a id="1" class="map-balloon" href="javascript:;"><button class="balloon" data-balloon-pos="up" data-balloon-length="large" data-balloon="Este cabo se encuentra sobre la costa Uruguaya, probablemente en el balneario de La Paloma en el Departamento de Rocha.">Cabo de Santa María</button></a>.</p>
     <p>Todos pensábamos que se pasaba desde allí al <button class="balloon" data-balloon-pos="up" data-balloon-length="large" data-balloon="Forma del referirse al océano Pacífico en la época del texto.">mar del Sur</button>, que no lo es del todo (aunque lo pareciera, por no haberse descubierto más en esa dirección). En definitiva, no es aquel un cabo, sino el desemboque de un <a id="3" class="map-balloon" href="javascript:;"><button class="balloon" data-balloon-pos="up" data-balloon-length="large" data-balloon="Se trata del Río de la Plata">río que tiene de boca 17 leguas</button></a>. Río, junto al que, en anterior ocasión, y por fiar demasiado, un capitán español, por nombre <button class="balloon" data-balloon-pos="up" data-balloon-length="large" data-balloon="Juan Pedro Díaz de Solís o João Pedro Dias de Solis (Sevilla, 1470 – Punta Gorda, Uruguay, 1516). Navegante y un explorador, uno de los primeros en llegar al Río de la Plata.">Iohan de Solís</button>, fue <span class="bold">devorado por los caníbales</span>, junto con sesenta hombres. Fueron a descubrir tierras, como nosotros.</p>
   </div>
 
-  <div class="col-right" style="padding-left: 25px;">
-    <figure><a class="portfolio-link" data-toggle="modal" href="#portfolioModal"><img src="{{site.baseurl}}/assets/img/{{page.img}}.png" target="_blank"></a><figcaption>Carte très curieuse de la Mer du Sud (detalle), via <a href="https://geodata.lib.utexas.edu/catalog/princeton-c247dv135" target="_blank">University of Texas Libraries</a></figcaption></figure>
+  <div class="col-4 sm-width-full col-right">
+    <figure><a class="portfolio-link no-underline no-underline-hover" data-toggle="modal" href="#portfolioModal"><img src="{{site.baseurl}}/assets/img/{{page.img}}.png" target="_blank"></a><figcaption>Carte très curieuse de la Mer du Sud (detalle), via <a href="https://geodata.lib.utexas.edu/catalog/princeton-c247dv135" target="_blank">University of Texas Libraries</a></figcaption></figure>
   </div>
 </div>
 
@@ -40,6 +42,9 @@ img: pg_0010
           <div class="modal-body">
             <img src="{{site.baseurl}}/assets/img/{{page.img}}.png">
           </div>
+          <div class="modal-footer">
+            <figcaption>Carte très curieuse de la Mer du Sud (detalle), via <a href="https://geodata.lib.utexas.edu/catalog/princeton-c247dv135" target="_blank">University of Texas Libraries</a></figcaption>
+          </div>          
         </div>
       </div>
     </div>

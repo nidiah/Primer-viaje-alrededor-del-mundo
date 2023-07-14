@@ -4,7 +4,7 @@
       {% include github.html %}
     </p>
     <ul class="list-reset right clearfix sm-width-full py-2 mb-2 mb-lg-0">
-      <li class="inline-block mr-1">Comentarios a esta edición
+      <li class="inline-block mr-1">Comentarios
       </li>
       <li class="inline-block mr-1">
         {% include email.html %}
@@ -16,9 +16,7 @@
   </div>
 
   <div class="mt-4 mb-2 clearfix" style="text-align: center;">
-
-    <span><a class="no-underline-hover" target="_blank" rel="noopener noreferrer" href="http://www.caicyt-conicet.gov.ar/sitio/"><img src="{{site.baseurl}}/assets/img/caicyt-logo-gris.jpg" style="max-width: 15%;" /></a>
-    </span>
+    {% include conicet-logo.svg %}
   </div>
   <div class="mb-4 clearfix" style="text-align: center;">
     <span> {{ site.time | date: '%Y' }} {{ site.title | escape }}. CC BY 4.0</span>

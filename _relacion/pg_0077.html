@@ -8,11 +8,13 @@ type: texto
 img: pg_0077
 ---
 
-<div class="row">
+<div>
   <h5 class="uppercase">{{page.book}}</h5>
   <h3>{{page.section}}</h3>
   <h2>{{page.subsection}}</h2>
-  <div class="col-left">
+</div>
+<div class="row">
+  <div class="col-8 sm-width-full">
     <p>Continuando nuestro camino, pasamos entre estas islas: <a id="0" class="map-balloon" href="javascript:;">Caioan</a>, <a id="1" class="map-balloon" href="javascript:;">Laigoma</a>, <a id="02" class="map-balloon" href="javascript:;">Sico</a>, Giogi, <a id="3" class="map-balloon" href="javascript:;">Caphi</a> (en esta de <a id="4" class="map-balloon" href="javascript:;">Caphi</a> nacen homúnculos, como los enanos, los cuales son los pigmeos y están sometidos por la fuerza a nuestro rey de Tadore), Laboan, Toliman, Titameti, <a id="5" class="map-balloon" href="javascript:;">Bachian</a> (que se mencionó ya), <a id="6" class="map-balloon" href="javascript:;">Latalata</a>, Talobi, Maga y <a id="7" class="map-balloon" href="javascript:;">Batutiga</a>. Apartándolas y al poniente de <a id="8" class="map-balloon" href="javascript:;">Batutiga</a>, avanzamos entre poniente y garbino, descubriendo en el umbra de la tarde un puñado de islotes empero, los pilotos de <a id="9" class="map-balloon" href="javascript:;">Maluco</a> aconsejaron seguir, pues nos desenvolvíamos entre muchos escollos y bancos de arena. Enfilamos el siroco, hasta dar en una isla en los dos grados de latitud del Polo Ártico y a cincuenta leguas de <a id="10" class="map-balloon" href="javascript:;">Maluco</a>. Llámase Sulach.</p>
     <p>Los de esta isla son gentiles, y nada tienen. Comen carne humana y andan desnudos, así hombres como mujeres, pues solamente con un jirón de corteza arbórea cubren sus compromisos. En muchas de estas tierras comen carne humana; así nombran algunas: Silan, Noselao, Biga, Atulabaon, Leitimor, Tenetum, Gondia, Pailarurun, Manadan y Benaia. Costeamos luego otras dos -Lamatola y Tenetuno- a casi diez leguas de Sulach.</p>
     <p>Una isla encontramos de ciertas dimensiones, en la que hállanse arroz, cerdos, cabras, gallinas, cocos, caña de azúcar, sagu, un manjar que elaboran con higos (llámanlo <i>chanali</i>) y jácaras, que llaman nanga. Las jácaras se parecen a las sandías, pero con un exterior de nudosidades; dentro, guardan unos frutos rojos, minúsculos como albaricoques y, en lugar de huesos, unas pepitas como alubias, tiernas si se comen, no menos que las castañas. Hay otro fruto también que recuerda a las piñas, amarillo por fuera y por dentro blanco. Cortándolo, dijérasele un pero, pero es más tierno y mejor. A éste dicen <i>comilicai</i>.</p>
@@ -21,8 +23,8 @@ img: pg_0077
     <p>A cerca de treinta y cinco leguas de aquella isla de <a id="19" class="map-balloon" href="javascript:;">Buru</a>, a la cuarta del mediodía hacia garbino, encuéntrase Badan-Bandan, con otras doce. En seis, prodúcese la matia, así como la nuez moscada; éstos son sus nombres: Zoroboa -la mayor- Chelicel, Samianapi, Pulac, Pulurun y Rosoghin. Las otras seis son éstas: Unuveru, Pulan Baracan, Lailaca, Manuca, Man y Ment. En ellas no se encuentra nuez moscada, aunque sí sagu, arroz, cocos, higos y otros frutos; están muy vecinas la una de la otra. Los pueblos de acá son moros, y sin rey. <a id="20" class="map-balloon" href="javascript:;">Bandan</a> está en los seis grados de latitud del <a id="21" class="map-balloon" href="javascript:;">Polo Antártico</a>, y en los 163 1/2 grados de longitud de la línea de partición; no nos acercamos porque nos desviaba de ruta.</p>
   </div>
 
-  <div class="col-right" style="padding-left: 25px;">
-    <figure><a class="portfolio-link" data-toggle="modal" href="#portfolioModal"><img src="{{site.baseurl}}/assets/img/{{page.img}}.jpg"></a><figcaption>Casas y enseres de los indios (reproducción de de Bry), A. Casa sobre un árbol B. Hacha de piedra C. Hamaca D. Balanzas E. Boys (casas) F. Casas sobre empalizadas. (Ed. de Amoretti, <a href="https://books.google.es/books?id=xknW1neprkcC&lpg=PA157&ots=rLejsq8Elg&dq=pigafetta+moreti+primo+viaggio&hl=es&pg=PP1&pli=1#v=onepage&q&f=false" target="_blank" title="via Google Books">Biblioteca universitaria Alessandrina)</a></figcaption></figure>
+  <div class="col-4 sm-width-full col-right">
+    <figure><a class="portfolio-link no-underline no-underline-hover" data-toggle="modal" href="#portfolioModal"><img src="{{site.baseurl}}/assets/img/{{page.img}}.jpg"></a><figcaption>Casas y enseres de los indios (reproducción de de Bry), A. Casa sobre un árbol B. Hacha de piedra C. Hamaca D. Balanzas E. Boys (casas) F. Casas sobre empalizadas. (Ed. de Amoretti, <a href="https://books.google.es/books?id=xknW1neprkcC&lpg=PA157&ots=rLejsq8Elg&dq=pigafetta+moreti+primo+viaggio&hl=es&pg=PP1&pli=1#v=onepage&q&f=false" target="_blank" title="via Google Books">Biblioteca universitaria Alessandrina)</a></figcaption></figure>
   </div>
 </div>
 
@@ -46,6 +48,9 @@ $("#12").miniPreview();$("#13").miniPreview();$("#14").miniPreview();$("#15").mi
           <div class="modal-body">
             <img src="{{site.baseurl}}/assets/img/{{page.img}}.jpg">
           </div>
+          <div class="modal-footer">
+            <figcaption>Casas y enseres de los indios (reproducción de de Bry), A. Casa sobre un árbol B. Hacha de piedra C. Hamaca D. Balanzas E. Boys (casas) F. Casas sobre empalizadas. (Ed. de Amoretti, <a href="https://books.google.es/books?id=xknW1neprkcC&lpg=PA157&ots=rLejsq8Elg&dq=pigafetta+moreti+primo+viaggio&hl=es&pg=PP1&pli=1#v=onepage&q&f=false" target="_blank" title="via Google Books">Biblioteca universitaria Alessandrina)</a></figcaption>
+          </div>          
         </div>
       </div>
     </div>

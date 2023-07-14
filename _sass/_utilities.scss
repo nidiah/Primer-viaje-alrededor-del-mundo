@@ -70,11 +70,7 @@
 .text-accent { color: $color-text-accent; } // used for date in post list and home link
 
 /* Layout utilities */
-.container { max-width: $text-container-width; }
-.text-container { 
-  max-width: $text-container-width;
-  display: flex;
-}
+.container { max-width: $container-width; }
 
 
 .col-1 { width: (1 / 12 * 100%); }
@@ -111,30 +107,24 @@
 .right { float: right; }
 
 
-
-.col-left {
-  float: left;
-  width: 70%;
-}
-
 .col-right {
-  float: right;
-  width: 30%;
+  padding-left: 25px;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 40px;
+  float:right;
 }
 
-/* Clear floats after the columns */
 .row {
-  max-width: 70em ;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-//:after {
-//  content: "";
-//  display: table;
-//  clear: both;
-//}
+.col {
+  flex: 0 0 auto;
+  width: 50%;
+  --bs-gutter-y: 1rem;
+}
 
 
 /* Search Highlighting */

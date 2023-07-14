@@ -8,11 +8,13 @@ type: texto
 img: pg_0009
 ---
 
-<div class="row">
+<div>
   <h5 class="uppercase">{{page.book}}</h5>
   <h3>{{page.section}}</h3>
   <h2>{{page.subsection}}</h2>
-  <div class="col-left">
+</div>
+<div class="row">
+  <div class="col-8 sm-width-full">
     <p>Esta gente <span class="bold">se pinta a maravilla todo el cuerpo y el rostro con fuego</span> y de distintas maneras, incluso las mujeres. Van completamente tonsos y sin barba --porque se la afeitan--. Abríganse con vestiduras de plumas de papagayo, con ruedas grandes en el culo hechas con las plumas más largas; cosa ridícula. A excepción de las mujeres y niños, ostentan todos <span class="bold">tres agujeros en el labio inferior</span>, de donde cuelgan piedras redondas y de un dedo de largo --unas menos, otras más--. No son negros completamente; más bien oliváceos; llevan al aire las partes vergonzosas, y carecen de vello en cualquiera. Y así hombres como mujeres, andan del todo desnudos. Llaman a su rey &quot;cacique&quot;. Disponen de <span class="bold">infinidad de papagayos</span>, y cambian ocho o diez por un espejo; y gatos maimones pequeños, semejantes a los cachorros de león, pero amarillos: una preciosidad. Amasan un pan redondo, blanco, de médula de árbol, de sólo regular sabor; se halla dicha médula bajo la corteza, y parece requesón. Tienen cerdos con la particularidad del ombligo en la espalda, y <span class="bold">grandes pájaros con el pico como un cucharón y sin lengua<span class="bold">.</p>
     <p>Por un hacha pequeña o un cuchillo de buen tamaño entregaban a una o dos de sus hijas como esclavas; pero a su mujer por nada la habrían dado. Ni hubiesen ellas ofendido tampoco al esposo a ningún precio. De día nada consentían a éste, sólo de noche. Ellas trabajan y cargan con toda la comida en unas mochilas de mimbre, o bien en canéforas -sobre la cabeza o a la cabeza atadas--; pero siempre con su marido cerca, y él con un arco de verzin, o de palma negra, y un haz de flechas de caña. Todo lo cual no olvidan, por ser muy celosos. Llevan las mujeres a sus hijos colgados del cuello por una red de algodón. Y callo las demás cosas para no alargarme.</p>
     <p>Dos veces se dijo misa en aquellos lugares, ante la que guardaban ellos tamaña contrición, de rodillas y alzando juntas las manos, que era grandísimo placer verlos. Edificaron una casa para nosotros, pensando que deberíamos permanecer algún tiempo aún, y cortaron mucho verzin para regalárnoslo en la marcha. Haría cerca de dos meses que no habría llovido por allá; y, cuando alcanzábamos el puerto, por casualidad, llovió. Por lo que dieron en decir que descendíamos del cielo, y que habíamos traído con nosotros la lluvia. Estos pueblos <span class="bold">fácilmente se convertirían a la fe de Jesucristo</span>. Al principio, pensaban que las lanchas fuesen hijas de las carabelas, e incluso que éstas las parían en el momento en que se soltaban por la borda sobre el mar; y, observándolas más tarde a su costado, según es uso, creían que cada carabela las amamantaba.</p>
@@ -20,8 +22,8 @@ img: pg_0009
     <p><button class="balloon" data-balloon-pos="up" data-balloon-length="large" data-balloon="Del 13 al 27 de diciembre de 1519">Trece días</button> permanecimos en aquella tierra.</p>
   </div>
 
-  <div class="col-right" style="padding-left: 25px;">
-    <figure><a class="portfolio-link" data-toggle="modal" href="#portfolioModal"><img src="{{site.baseurl}}/assets/img/{{page.img}}.jpg"></a><figcaption>Cabezas y tocados de diferentes tribus de Brasil (Jean-Baptiste Debret, 1816, via <a href="https://gallica.bnf.fr/ark:/12148/btv1b85530100/f137.item" target="_blank">Gallica - BNF</a>)</figcaption></figure>
+  <div class="col-4 sm-width-full col-right">
+    <figure><a class="portfolio-link no-underline no-underline-hover" data-toggle="modal" href="#portfolioModal"><img src="{{site.baseurl}}/assets/img/{{page.img}}.jpg"></a><figcaption>Cabezas y tocados de diferentes tribus de Brasil (Jean-Baptiste Debret, 1816, via <a href="https://gallica.bnf.fr/ark:/12148/btv1b85530100/f137.item" target="_blank">Gallica - BNF</a>)</figcaption></figure>
   </div>
 </div>
 
@@ -36,6 +38,9 @@ img: pg_0009
           <div class="modal-body">
             <img src="{{site.baseurl}}/assets/img/{{page.img}}.jpg">
           </div>
+          <div class="modal-footer">
+            <figcaption>Cabezas y tocados de diferentes tribus de Brasil (Jean-Baptiste Debret, 1816, via <a href="https://gallica.bnf.fr/ark:/12148/btv1b85530100/f137.item" target="_blank">Gallica - BNF</a>)</figcaption>
+          </div>          
         </div>
       </div>
     </div>
